@@ -5,4 +5,4 @@ title: Home
 
 # Hello World
 
-## Welcome
+## Welcome to the site
