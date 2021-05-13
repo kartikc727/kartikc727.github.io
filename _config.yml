@@ -83,7 +83,14 @@ defaults:
       related: true
       show_date: true
 
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "kartik727"
+
 logo: /assets/images/logo.jpg
 # masthead_title: "Custome masthead title" # If want in future
 teaser: /assets/images/default_teaser.jpeg
+
+
 

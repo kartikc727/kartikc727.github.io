@@ -39,9 +39,9 @@ A numbered list is created using a number + `.`, like:
   <input name="options[redirect]" type="hidden" value="https://kartik727.github.io/">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label>
-  <label><input name="fields[email]" type="email">E-mail</label>
-  <label><textarea name="fields[message]"></textarea>Message</label>
+  <label>Name<input name="fields[name]" type="text"></label>
+  <label>E-mail<input name="fields[email]" type="email"></label>
+  <label>Message<textarea name="fields[message]"></textarea></label>
   
   <button type="submit">Go!</button>
 </form>
