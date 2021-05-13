@@ -35,13 +35,3 @@ A numbered list is created using a number + `.`, like:
 2. four
 
 
-<form method="POST" action="https://staticman-comment-kartik727.herokuapp.com/v3/entry/github/kartik727/kartik727.github.io/main/comments">
-  <input name="options[redirect]" type="hidden" value="https://kartik727.github.io/">
-  <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label>Name<input name="fields[name]" type="text"></label>
-  <label>E-mail<input name="fields[email]" type="email"></label>
-  <label>Message<textarea name="fields[message]"></textarea></label>
-  
-  <button type="submit">Go!</button>
-</form>
