@@ -33,10 +33,10 @@ github_username:  kartik727
 
 # Build settings
 # theme: minima
-theme : minimal-mistakes-jekyll
+# theme : minimal-mistakes-jekyll
 
 # remote theme for gh pages
-# remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 plugins:
   - jekyll-paginate
