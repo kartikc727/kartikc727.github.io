@@ -1,8 +1,10 @@
 ---
-layout : default
+layout : home
 title: Home
+
+
+author_profile: true
+toc : true
 ---
 
-# Hello World
 
-## Welcome to the site.

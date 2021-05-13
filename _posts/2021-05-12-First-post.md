@@ -1,8 +1,11 @@
 ---
-layout: post
-title: My First Jekyll Post
-tags: first markdown example
+layout: single
+title: "My First Jekyll Post"
+header:
+  teaser: /assets/images/teasers/first_post.jpg
+date:   2021-05-12 20:30:00 +0530
 categories: demo
+published: true
 ---
 
 This is a paragraph in my first post.
