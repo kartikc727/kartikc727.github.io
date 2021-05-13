@@ -38,6 +38,8 @@ github_username:  kartik727
 # remote theme for gh pages
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
+minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -67,8 +69,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
 defaults:
   # _posts
   - scope:
@@ -81,6 +81,9 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
 
+logo: /assets/images/logo.jpg
+# masthead_title: "Custome masthead title" # If want in future
 teaser: /assets/images/default_teaser.jpeg
 
