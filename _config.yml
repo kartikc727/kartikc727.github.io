@@ -18,18 +18,51 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# Variables
+social_email: &social_email "mailto:kartikchoudhary9@gmail.com"
+social_twitter: &social_twitter "https://twitter.com/kartik_727"
+social_github: &social_github "https://github.com/kartik727"
+social_linkedin: &social_linkedin "https://www.linkedin.com/in/kartik727/"
+
 title: "Kartik's blog"
 subtitle: Very nice subtitle
-name: "Kartik Choudhary"
 email: kartikchoudhary9@gmail.com
+timezone: Asia/Kolkata
 description: >- # this means to ignore newlines until "baseurl:"
   This is some placeholder description. The site is still under construction.
   Once the basic layout is complete, I will update this with appropriate description.
   Thank you for your patience.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kartik727.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: kartik_727
-github_username:  kartik727
+# twitter_username: kartik_727
+# github_username:  kartik727
+twitter:
+  username: kartik_727
+social:
+  type: Person
+  links:
+    - *social_twitter
+    - *social_linkedin
+    - *social_github
+
+author:
+  name: "Kartik Choudhary"
+  avatar: "/assets/images/profile_pic_small.jpg"
+  bio: "I am an **amazing** person." # Note: Markdown is allowed
+  location: "New Delhi, India"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: *social_email
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: *social_twitter
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: *social_github
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: *social_linkedin
 
 # Build settings
 # theme: minima
@@ -38,7 +71,7 @@ github_username:  kartik727
 # remote theme for gh pages
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
-minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
   - jekyll-paginate
@@ -76,7 +109,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -88,9 +121,21 @@ comments:
   disqus:
     shortname: "kartik727"
 
-logo: /assets/images/logo.jpg
-# masthead_title: "Custome masthead title" # If want in future
+logo: /assets/images/logo-transparent.png
+# masthead_title: "Custom masthead title" # If want in future
 teaser: /assets/images/default_teaser.jpeg
+search: true # Try other search providers if performance unsatisfactory
 
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: *social_twitter
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: *social_github
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: *social_linkedin
 
 
