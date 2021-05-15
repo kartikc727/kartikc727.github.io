@@ -83,7 +83,7 @@ plugins:
   - jekyll-seo-tag
 
 include:
-  - _pages/
+  - /_pages/
 
 defaults:
   # _posts
