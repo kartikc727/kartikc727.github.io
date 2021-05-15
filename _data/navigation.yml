@@ -3,7 +3,10 @@ main:
     url: /docs/quick-start-guide/
   - title: "Posts"
     url: /year-archive/
+  - title: "Projects"
+    url: /projects/
   - title: "About"
     url: /about/
     description: "Get to know me"
+
 
