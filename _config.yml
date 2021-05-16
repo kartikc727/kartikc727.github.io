@@ -30,12 +30,14 @@ subtitle: "My perspective on various machine learning concepts and techniques"
 email: kartikchoudhary9@gmail.com
 timezone: Asia/Kolkata
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kartik727.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kartik727.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter cards
-twitter_username: kartik_727
+twitter:
+  username: kartik_727
+# twitter_username: kartik_727
 description: "Yet another machine learning blog"
-title_image: /assets/images/logo-new-white-bg.png
+title-image: /assets/images/logo-new-white-bg.png
 
 # Search appearence
 social:
@@ -69,10 +71,10 @@ author:
 
 # Build settings
 # theme: minima
-# theme : minimal-mistakes-jekyll
+theme : minimal-mistakes-jekyll
 
 # remote theme for gh pages
-remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+# remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 

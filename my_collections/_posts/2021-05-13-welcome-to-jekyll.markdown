@@ -3,6 +3,7 @@ layout: single
 title:  "Welcome to Jekyll!"
 date:   2021-05-13 16:42:39 +0530
 categories: jekyll update
+excerpt: "How to build a static website with Jekyll"
 
 header:
   image: /assets/posts/welcome-to-jekyll/images/header-unsplash.jpg
