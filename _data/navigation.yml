@@ -9,4 +9,22 @@ main:
     url: /about/
     description: "Get to know me"
 
+other-posts:
+  - title: Linux
+    children:
+      - title: Shell commands
+        url: other/linux/2021/05/16/linux_commands.html
+      - title: Another Linux posts
+        url: /
+
+  - title: Python
+    children:
+      - title: Python commands
+        url: /
+
+demo:
+  - title: Demo
+    children:
+      - title: First Post
+      - url: /demo/2021/05/12/first-post.html
 

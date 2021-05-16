@@ -31,10 +31,13 @@ email: kartikchoudhary9@gmail.com
 timezone: Asia/Kolkata
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kartik727.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: kartik_727
-# github_username:  kartik727
-twitter:
-  username: kartik_727
+
+# Twitter cards
+twitter_username: kartik_727
+description: "Yet another machine learning blog"
+title_image: /assets/images/logo-new-white-bg.png
+
+# Search appearence
 social:
   type: Person
   links:
@@ -44,7 +47,7 @@ social:
 
 author:
   name: "Kartik Choudhary"
-  avatar: "/assets/images/profile_pic_small.jpg"
+  avatar: "/assets/images/profile_pic_large.jpg"
   bio: | # MD allowed
     Data scientist \| Machine learning enthusiast.
 
@@ -90,6 +93,19 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+
+  # _drafts
+  - scope:
+      path: ""
+      type: drafts
     values:
       layout: single
       author_profile: false

@@ -37,4 +37,4 @@ gem "jemoji"
 gem "jekyll-include-cache"
 
 # Theme
-gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll", "~> 4.22.0"
