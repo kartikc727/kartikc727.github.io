@@ -32,4 +32,7 @@ author_profile: true
 
 {% include feature_row id="intro" type="center" %}
 
+# Under Construction
+The site is still under construction. Please come back later.
+
 {% include feature_row %}

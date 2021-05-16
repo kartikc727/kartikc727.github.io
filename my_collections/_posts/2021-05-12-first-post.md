@@ -13,11 +13,10 @@ header:
 date:   2021-05-12 20:30:00 +0530
 categories: demo
 published: true
-canonical_url: "https://kartik727.github.io/my-first-post"
 
 # table
 toc: true
-# toc_label: "Nice Label"
+# toc_label: "Label goes here"
 # toc_icon: "<some font awesome icon>"
 toc_sticky: true
 ---
