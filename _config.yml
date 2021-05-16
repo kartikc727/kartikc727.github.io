@@ -31,8 +31,13 @@ email: kartikchoudhary9@gmail.com
 timezone: Asia/Kolkata
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kartik727.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter:
-  username: kartik_727
+
+# Twitter cards
+twitter_username: kartik_727
+description: "Yet another machine learning blog"
+title_image: /assets/images/logo-new-white-bg.png
+
+# Search appearence
 social:
   type: Person
   links:

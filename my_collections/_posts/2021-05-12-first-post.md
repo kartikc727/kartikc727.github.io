@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "My First Jekyll Post"
-excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
+twitter-image: assets/posts/my-first-post/images/twitter-card.jpg
+excerpt: "This post should display a header with an overlay image, if the theme supports it."
 header:
   teaser: /assets/images/teasers/first_post.jpg
   overlay_image: /assets/posts/my-first-post/images/header-overlay-unsplash.jpg
@@ -19,14 +20,6 @@ toc: true
 # toc_label: "Label goes here"
 # toc_icon: "<some font awesome icon>"
 toc_sticky: true
-
-# twitter card
-twitter:
-  card: summary_large_image
-  title: "First Post"
-  description: "This is my first post on the website"
-  image: /assets/images/sample-img-twitter-card.jpg
-
 ---
 
 # Intro
