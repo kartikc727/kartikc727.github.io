@@ -19,6 +19,14 @@ toc: true
 # toc_label: "Label goes here"
 # toc_icon: "<some font awesome icon>"
 toc_sticky: true
+
+# twitter card
+twitter:
+  card: summary_large_image
+  title: "First Post"
+  description: "This is my first post on the website"
+  image: /assets/images/sample-img-twitter-card.jpg
+
 ---
 
 # Intro
