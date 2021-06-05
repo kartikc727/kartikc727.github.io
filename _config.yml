@@ -23,6 +23,7 @@ social_email: &social_email "mailto:kartikchoudhary9@gmail.com"
 social_twitter: &social_twitter "https://twitter.com/kartik_727"
 social_github: &social_github "https://github.com/kartik727"
 social_linkedin: &social_linkedin "https://www.linkedin.com/in/kartik727/"
+social_kaggle: &social_kaggle "https://www.kaggle.com/kartikchoudhary727"
 
 # Basic info
 title: "Kartik's blog"
@@ -46,14 +47,13 @@ social:
     - *social_twitter
     - *social_linkedin
     - *social_github
+    - *social_kaggle
 
 author:
   name: "Kartik Choudhary"
   avatar: "/assets/images/profile_pic_large.jpg"
   bio: | # MD allowed
     Data scientist \| Machine learning enthusiast.
-
-    Love basketball, high fantasy, astrophysics, and learning about the latest developments in NLP and Human-Centered AI.
   location: "New Delhi, India"
   links:
     - label: "Email"
@@ -68,9 +68,14 @@ author:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: *social_linkedin
+    - label: "Kaggle"
+      icon: "fab fa-fw fa-kaggle"
+      url: *social_kaggle
 
 # Build settings
 # theme: minima
+
+
 # theme : minimal-mistakes-jekyll
 
 # remote theme for gh pages
@@ -86,6 +91,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-seo-tag
+  - jekyll-target-blank
 
 include:
   - _pages
@@ -137,7 +143,7 @@ comments:
 
 logo: /assets/images/logo-new.png
 # masthead_title: "Custom masthead title" # If want in future
-teaser: /assets/images/default_teaser.jpeg
+teaser: /assets/images/default-teaser.jpeg
 search: true # Try other search providers if performance unsatisfactory
 
 collections_dir: my_collections

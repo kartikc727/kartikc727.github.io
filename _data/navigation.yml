@@ -1,6 +1,4 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
   - title: "Posts"
     url: /year-archive/
   - title: "Projects"
@@ -9,6 +7,17 @@ main:
     url: /about/
     description: "Get to know me"
 
+## ML Posts
+gans:
+  - title: Measuring Performance
+    children:
+      - title: Inception Score
+        url: ml/gan/2021/06/05/inception-score.html
+      - title: Frechet Inception Distance
+        url: ml/gan/2021/06/05/frechet-inception-distance.html
+
+
+## Other Posts
 other-posts:
   - title: Linux
     children:

@@ -38,3 +38,6 @@ gem "jekyll-include-cache"
 
 # Theme
 gem "minimal-mistakes-jekyll", "~> 4.22.0"
+
+# Blank Target
+gem "jekyll-target-blank"

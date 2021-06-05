@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "My First Jekyll Post"
-twitter-image: /assets/posts/my-first-post/images/twitter-card.jpg
+twitter-image: /assets/images/teasers/first_post.jpg
 excerpt: "This post should display a header with an overlay image, if the theme supports it."
 header:
   teaser: /assets/images/teasers/first_post.jpg
