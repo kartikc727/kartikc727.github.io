@@ -17,4 +17,3 @@ date: 2021-05-15 16:54:00+05:30
 I am a Data Scientist who loves basketball, high fantasy, astrophysics, and learning about the latest developments in NLP and Human-Centered AI.
 
 [My CV](/documents/resume/CV-draft-2.pdf){:target="_blank" .btn .btn--primary .btn--large}
-<!-- [Text](#link){: .btn .btn--primary } -->

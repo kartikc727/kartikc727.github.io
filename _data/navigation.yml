@@ -9,21 +9,25 @@ main:
 
 ## ML Posts
 gans:
+  - title: Basics
+    children:
+      - title: Generative Models
+        url: /
+      - title: Intro to GANs
+        url: /ml/gan/2021/06/20/gans-intro.html
   - title: Measuring Performance
     children:
       - title: Frechet Inception Distance
-        url: ml/gan/2021/06/05/frechet-inception-distance.html
+        url: /ml/gan/2021/06/05/frechet-inception-distance.html
       - title: Inception Score
-        url: ml/gan/2021/06/05/inception-score.html
+        url: /ml/gan/2021/06/05/inception-score.html
 
 ## Other Posts
 other-posts:
   - title: Linux
     children:
-      - title: Shell commands
-        url: other/linux/2021/05/16/linux_commands.html
-      - title: Another Linux posts
-        url: /
+      - title: Linux CLI commands
+        url: /other/linux/2021/05/12/linux_commands.html
 
   - title: Python
     children:
