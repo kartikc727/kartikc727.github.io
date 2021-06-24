@@ -4,4 +4,5 @@ _drafts/
 .jekyll-cache
 .jekyll-metadata
 _retired/
+_patterns/
 vendor

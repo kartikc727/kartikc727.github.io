@@ -136,6 +136,21 @@ defaults:
       related: true
       show_date: true
 
+  # _not-ml
+  - scope:
+      path: ""
+      type: not-ml
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: false
+      show_date: false
+
+  
+
 comments:
   provider: "disqus"
   disqus:
@@ -149,6 +164,9 @@ search: true # Try other search providers if performance unsatisfactory
 collections_dir: my_collections
 collections:
   projects:
+    output: true
+    permalink: /:collection/:path/
+  not-ml:
     output: true
     permalink: /:collection/:path/
 
