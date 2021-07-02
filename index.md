@@ -16,7 +16,7 @@ feature_row:
   - image_path: /assets/images/home/other.jpg
     title: "Not ML"
     url: "/not-ml/"
-    btn_label: "Read More"
+    btn_label: "Click Here"
     btn_class: "btn--primary"
 
 author_profile: true
