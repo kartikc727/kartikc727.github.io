@@ -11,7 +11,7 @@ header:
 date:   2021-06-21 20:30:00 +0530
 last_modified_at: 2021-06-21 20:30:00 +0530
 categories: not-ml
-published: false
+published: true
 
 # table
 toc: true
