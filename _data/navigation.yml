@@ -31,7 +31,9 @@ other-posts:
 
   - title: Python
     children:
-      - title: Python commands
+      - title: Python commands (Coming soon)
+        url: /
+      - title: VS Code commands (Coming soon)
         url: /
 
 demo:

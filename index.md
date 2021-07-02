@@ -14,9 +14,9 @@ feature_row:
     btn_label: "Click Here"
     btn_class: "btn--primary"
   - image_path: /assets/images/home/other.jpg
-    title: "Other"
-    url: "#test-link"
-    btn_label: "Read More"
+    title: "Not ML"
+    url: "/not-ml/"
+    btn_label: "Click Here"
     btn_class: "btn--primary"
 
 author_profile: true
