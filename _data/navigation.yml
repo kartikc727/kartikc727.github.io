@@ -5,7 +5,13 @@ main:
     url: /projects/
   - title: "About"
     url: /about/
-    description: "Get to know me"
+
+## Top Level 
+all-posts:
+  - title: NLP
+    url: /
+  - title: Generative Adversarial Networks
+    url: /ml/gan/2021/06/20/gans-intro.html
 
 ## ML Posts
 gans:
@@ -21,6 +27,31 @@ gans:
         url: /ml/gan/2021/06/05/frechet-inception-distance.html
       - title: Inception Score
         url: /ml/gan/2021/06/05/inception-score.html
+
+## ML Unified Posts
+ml-posts:
+  - title: GAN
+    children:
+      - title: Generative Models
+        url: /ml/gan/2021/06/01/gans-generative-models.html
+      - title: Intro to GANs
+        url: /ml/gan/2021/06/01/gans-intro.html
+      - title: Frechet Inception Distance
+        url: /ml/gan/2021/06/05/gans-frechet-inception-distance.html
+      - title: Inception Score
+        url: /ml/gan/2021/06/05/gans-inception-score.html
+  - title: Transformers
+    children:
+      - title: Intro to Transformers
+        url: /ml/transformer/2021/07/25/transformers-intro.html
+      - title: Attention
+        url: /ml/transformer/2021/07/25/transformer-attention.html
+      - title: Encoder
+        url: /ml/transformer/2021/07/25/transformer-encoder.html
+      - title: Decoder
+        url: /ml/transformer/2021/07/25/transformer-decoder.html
+      - title: Putting it together
+        url: /ml/transformer/2021/07/25/transformer-conclusion.html
 
 ## Other Posts
 other-posts:
