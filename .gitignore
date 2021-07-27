@@ -10,3 +10,4 @@ _patterns/experimental.ipynb
 .env/
 .vscode/
 vendor
+*.xlsx
