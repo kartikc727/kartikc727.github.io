@@ -145,8 +145,9 @@ def save_colored_images(config_loc):
 
     print('Images saved')
 
-
-
-if __name__ == '__main__':
+def main():
     save_colored_images('_patterns/args.json')
     print('Done.')
+
+if __name__ == '__main__':
+    main()
