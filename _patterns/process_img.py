@@ -90,6 +90,9 @@ def apply_mask_alt(img, mask_color):
 
     return img_mask
 
+def hex2rgb(hex_num):
+    hex_num = hex_num.lstrip('#')
+    return [int(hex_num[i:i+2], 16) for i in [0, 2, 4]]
 
 def save_colored_images(config_loc):
     with open(config_loc, 'r') as f:
@@ -107,10 +110,11 @@ def save_colored_images(config_loc):
         img_rgb = rescale(img_rgb, config['rescale'], multichannel=True)
         print(f'Image rescaled. New shape: {img_rgb.shape}')
 
+    mask_color = hex2rgb(config['mask_color'])
     if config['alt_mask']:
-        img_masked = apply_mask_alt(img_rgb, config['mask_color'])
+        img_masked = apply_mask_alt(img_rgb, mask_color)
     else:
-        img_masked = apply_mask(img_rgb, config['mask_color'], config['alpha'])
+        img_masked = apply_mask(img_rgb, mask_color, config['alpha'])
 
     if config['gamma'] >= 0:
         img_masked = exposure.adjust_gamma(img_masked, config['gamma'])
@@ -134,7 +138,7 @@ def save_colored_images(config_loc):
         else:
             txt, num_lines = text_cfg['text'], text_cfg['num_lines']
         origin = get_origin(img_card.shape[:2], text_cfg['maxlen'], text_cfg['font_size'], num_lines, w_unit=text_cfg['w_unit'])
-        img_card = add_text(img_card, txt, font=text_cfg['font'], font_size=text_cfg['font_size'], font_color=text_cfg['font_color'], origin=origin)
+        img_card = add_text(img_card, txt, font=text_cfg['font'], font_size=text_cfg['font_size'], font_color=hex2rgb(text_cfg['font_color']), origin=origin)
         print(f'Text added to card. Num lines: {num_lines}')
 
     img_card = np.uint8(img_card*255)
