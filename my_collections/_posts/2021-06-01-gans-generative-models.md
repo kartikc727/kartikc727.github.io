@@ -46,7 +46,8 @@ In the paper [An Introduction to Variational Autoencoders](https://arxiv.org/abs
 
 In math terms: 
 
-Generative models try to model the joint distribution p(X, Y) while discriminative models try to model p(Y\|X). You can see how generative models can be very powerful and we can get discriminative models from them whenever we want by conditioning on the input data. Unfortunately, making a good generative model is very difficult, as it has a much harder job to do, and if all we want to do is predict the labels for input data, then training a discriminative model is usually a much simpler process and requires less training data and training time.
+Generative models try to model the joint distribution p(X, Y) while discriminative models try to model p(Y\|X). You can see how generative models can be very powerful and we can get discriminative models from them whenever we want by conditioning on the input data. Unfortunately, making a good generative model is very difficult, as it has a much harder job to do, and if all we want to do is predict the labels for input data, then training a discriminative model is usually a much simpler process and requires less training data and training time. It also makes intuitive sense that generative modeling is much harder than discriminative modeling - most people need to think a lot to decide which restaurant they want to go to for dinner, but if someone else makes suggestions it is easy to decide whether that would be a good choice or not.
+
 
 Popular examples of generative models include Generative Adversarial Models (GANs), which we will see in the next sections, and Variational Autoencoders (VAEs).
 
