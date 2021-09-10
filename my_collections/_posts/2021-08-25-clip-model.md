@@ -28,28 +28,28 @@ sidebar:
   - nav: all-posts
 
 dataset-examples:
-  - url: /assets/posts/clip/1.png
-    image_path: /assets/posts/clip/1.png
+  - url: /assets/post/CLIP/1.png
+    image_path: /assets/post/CLIP/1.png
     alt: "example image 1"
     title: "Food101"
-  - url: /assets/posts/clip/2.png
-    image_path: /assets/posts/clip/2.png
+  - url: /assets/post/CLIP/2.png
+    image_path: /assets/post/CLIP/2.png
     alt: "example image 2"
     title: "PatchCamelyon (PCam)"
-  - url: /assets/posts/clip/3.png
-    image_path: /assets/posts/clip/3.png
+  - url: /assets/post/CLIP/3.png
+    image_path: /assets/post/CLIP/3.png
     alt: "example image 3"
     title: "EuroSAT"
-  - url: /assets/posts/clip/4.png
-    image_path: /assets/posts/clip/4.png
+  - url: /assets/post/CLIP/4.png
+    image_path: /assets/post/CLIP/4.png
     alt: "example image 4"
     title: "ImageNet"
-  - url: /assets/posts/clip/5.png
-    image_path: /assets/posts/clip/5.png
+  - url: /assets/post/CLIP/5.png
+    image_path: /assets/post/CLIP/5.png
     alt: "example image 5"
     title: "CLEVR Count"
-  - url: /assets/posts/clip/6.png
-    image_path: /assets/posts/clip/6.png
+  - url: /assets/post/CLIP/6.png
+    image_path: /assets/post/CLIP/6.png
     alt: "example image 6"
     title: "German Traffic Sign Recognition Benchmark (GTSRB)"
 ---
@@ -89,7 +89,7 @@ As mentioned above, the model has two primary components: an image encoder and a
 
 For the text encoder, the authors first tried transformers to predict the image captions, and found that they were very slow to train, and a simple baseline model that gives bag-of-words encodings as output learned 3x faster. The problem here is that both of these methods are trying to predict the exact caption paired with the image. The way the dataset is created, the captions do not follow any fixed guideline and, in general, are just a natural language description of the image. So, we know there is no ‘golden’ caption that is the most correct, and instead the same image can be described in many different ways that are all equally valid. What we really want the model to understand is that the caption paired with the image is one such valid description.
 
-{% include figure image_path="/assets/posts/clip/clip-training-efficiency.png" alt="CLIP training efficiency" caption="Training efficiency of CLIP compared to image captioning baseline. Source: [[2103.00020] Learning Transferable Visual Models From Natural Language Supervision (arxiv.org)](https://arxiv.org/abs/2103.00020)" %}
+{% include figure image_path="/assets/post/CLIP/clip-training-efficiency.png" alt="CLIP training efficiency" caption="Training efficiency of CLIP compared to image captioning baseline. Source: [[2103.00020] Learning Transferable Visual Models From Natural Language Supervision (arxiv.org)](https://arxiv.org/abs/2103.00020)" %}
 
 
 ## Contrastive learning
@@ -104,7 +104,7 @@ There is a possibility that there are two or more (image, text) pairs in a batch
 
 To calculate the cosine similarities, the image encoder and text encoder outputs are both projected to a common contrastive embedding space. This is a simple linear projection as the authors didn’t observe any meaningful difference compared to using a non-linear projection.
 
-{% include figure image_path="/assets/posts/clip/clip-block-diagram.png" alt="Block diagram of CLIP" caption="Block diagram of CLIP showing how a (text, image) pair is contrasted to calculate similarity." %}
+{% include figure image_path="/assets/post/CLIP/clip-block-diagram.png" alt="Block diagram of CLIP" caption="Block diagram of CLIP showing how a (text, image) pair is contrasted to calculate similarity." %}
 
 # Image and text encoders
 
@@ -153,7 +153,7 @@ To get a reference for CLIP’s zero-shot performance on any dataset, the author
 
 As we can see in the results in the figure below, CLIP’s zero-shot performance is on par or better on most “regular” datasets like ImageNet, CIFAR10/CIFAR100, etc. while it underperforms the baseline quite a bit on datasets for specialized tasks like EuroSAT for satellite images and PatchCamelyon for lymph node tumor detection.
 
-{% include figure image_path="/assets/posts/clip/clip-performance.png" alt="CLIP performance" caption="Comparison of CLIP's zero-shot performance to fully supervised baseline. Source: [[2103.00020] Learning Transferable Visual Models From Natural Language Supervision (arxiv.org)](https://arxiv.org/abs/2103.00020)" %}
+{% include figure image_path="/assets/post/CLIP/clip-performance.png" alt="CLIP performance" caption="Comparison of CLIP's zero-shot performance to fully supervised baseline. Source: [[2103.00020] Learning Transferable Visual Models From Natural Language Supervision (arxiv.org)](https://arxiv.org/abs/2103.00020)" %}
 
 This makes sense considering the way the model is trained and the dataset. Images found on the internet probably do not include a lot of examples of how to spot a tumor in lymph node tissue or how annual cropland differs from permanent cropland. So we can see that while CLIP shows impressive zero-shot performance, just like humans it would also require some special training to be able to do specialized tasks well.
 
@@ -167,7 +167,7 @@ When we do this operation on the CLIP model, we make a significant change going 
 
 We can see that the 4-shot linear probe on CLIP matches zero-shot performance and above that, performance keeps getting better. So it might be a good exercise to try and find a better way of making a few-shot version of CLIP that can keep the best of both worlds.
 
-{% include figure image_path="/assets/posts/clip/clip-few-shot.png" alt="CLIP few shot performance" caption="Few shot comparison of CLIP and basline models. Source: [[2103.00020] Learning Transferable Visual Models From Natural Language Supervision (arxiv.org)](https://arxiv.org/abs/2103.00020)" %} 
+{% include figure image_path="/assets/post/CLIP/clip-few-shot.png" alt="CLIP few shot performance" caption="Few shot comparison of CLIP and basline models. Source: [[2103.00020] Learning Transferable Visual Models From Natural Language Supervision (arxiv.org)](https://arxiv.org/abs/2103.00020)" %} 
 
 
 # Conclusion
