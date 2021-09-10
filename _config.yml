@@ -26,12 +26,12 @@ social_linkedin: &social_linkedin "https://www.linkedin.com/in/kartik727/"
 social_kaggle: &social_kaggle "https://www.kaggle.com/kartikchoudhary727"
 
 # Basic info
-title: "Kartik's blog"
+title: "ML by Kartik"
 subtitle: "My perspective on various machine learning concepts and techniques"
 email: kartikchoudhary9@gmail.com
 timezone: Asia/Kolkata
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kartik727.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mlbykartik.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter cards
 twitter:
@@ -109,6 +109,9 @@ defaults:
       share: true
       related: true
       show_date: true
+      sidebar: all-posts
+      toc: true
+      toc_sticky: false
 
   # _drafts
   - scope:

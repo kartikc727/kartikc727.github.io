@@ -8,68 +8,17 @@ main:
 
 ## Top Level 
 all-posts:
-  - title: NLP
-    url: /
-  - title: Generative Adversarial Networks
-    url: /ml/gan/2021/06/20/gans-intro.html
-
-## ML Posts
-gans:
-  - title: Basics
+  - title: All Posts
     children:
-      - title: Generative Models
-        url: /
-      - title: Intro to GANs
-        url: /ml/gan/2021/06/20/gans-intro.html
-  - title: Measuring Performance
-    children:
-      - title: Frechet Inception Distance
-        url: /ml/gan/2021/06/05/frechet-inception-distance.html
-      - title: Inception Score
-        url: /ml/gan/2021/06/05/inception-score.html
-
-## ML Unified Posts
-ml-posts:
-  - title: GAN
-    children:
-      - title: Generative Models
-        url: /ml/gan/2021/06/01/gans-generative-models.html
-      - title: Intro to GANs
-        url: /ml/gan/2021/06/01/gans-intro.html
-      - title: Frechet Inception Distance
-        url: /ml/gan/2021/06/05/gans-frechet-inception-distance.html
-      - title: Inception Score
-        url: /ml/gan/2021/06/05/gans-inception-score.html
-  - title: Transformers
-    children:
-      - title: Intro to Transformers
-        url: /ml/transformer/2021/07/25/transformers-intro.html
-      - title: Attention
-        url: /ml/transformer/2021/07/25/transformer-attention.html
-      - title: Encoder
-        url: /ml/transformer/2021/07/25/transformer-encoder.html
-      - title: Decoder
-        url: /ml/transformer/2021/07/25/transformer-decoder.html
-      - title: Putting it together
-        url: /ml/transformer/2021/07/25/transformer-conclusion.html
-
-## Other Posts
-other-posts:
-  - title: Linux
+      - title: Generative Adversarial Networks
+        url: /ml/gan/2021/06/01/gans.html
+      - title: Transformer Model
+        url: /ml/transformer/2021/07/25/transformers.html
+      - title: OpenAI CLIP
+        url: /ml/clip/2021/08/25/clip-model.html
+  - title: See Also
     children:
       - title: Linux CLI commands
         url: /other/linux/2021/05/12/linux_commands.html
-
-  - title: Python
-    children:
-      - title: Python commands (Coming soon)
+      - title: VSCode commands
         url: /
-      - title: VS Code commands (Coming soon)
-        url: /
-
-demo:
-  - title: Demo
-    children:
-      - title: First Post
-      - url: /demo/2021/05/12/first-post.html
-

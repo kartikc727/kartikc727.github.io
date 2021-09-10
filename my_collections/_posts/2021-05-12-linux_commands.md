@@ -13,13 +13,11 @@ categories: other linux
 published: true
 
 # table
-toc: true
+# toc: true
 # toc_label: "Label goes here"
 # toc_icon: "<some font awesome icon>"
-toc_sticky: true
+# toc_sticky: true
 
-sidebar:
-  - nav: other-posts
 ---
 
 Some shortcuts that I learned while working with Linux, most of these are very basic, so if

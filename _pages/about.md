@@ -58,7 +58,7 @@ I am a Data Scientist who loves basketball, high fantasy, astrophysics, and lear
 <h2>
     <div>
       <span>Indian Institute of Technology Delhi</span>
-      <span style="float:right">2019</span>
+      <span style="float:right">Jun 2019</span>
     </div>
     <div>
       <span style="font-size:25px; font-weight:normal">B.Tech., Electrical Engineering</span>
@@ -146,7 +146,7 @@ Comparative analysis of models implementing SVM, CNN and Sparse Autoencoders on 
 # CERTIFICATES
 
 1.	Generative Adversarial Networks (GANs) Specialization. Coursera specialization.  
-June 2021. [Credential ID FWR5L39LWASL](https://www.coursera.org/account/accomplishments/specialization/certificate/FWR5L39LWASL)
+Jun 2021. [Credential ID FWR5L39LWASL](https://www.coursera.org/account/accomplishments/specialization/certificate/FWR5L39LWASL)
 
 2.	Natural Language Processing Specialization. Coursera specialization  
 May 2021. [Credential ID DBPP8AQ2G2SQ](https://www.coursera.org/account/accomplishments/specialization/certificate/DBPP8AQ2G2SQ)
@@ -177,4 +177,4 @@ Surveying accessibility of public transportation in New Delhi for persons with d
 
 
 [More about me](/not-ml/){: .btn .btn--primary .btn--large}
-[My CV](/documents/resume/CV-draft-2.pdf){:target="_blank" .btn .btn--primary .btn--large}
+[My CV](/documents/resume/CV-draft-3.pdf){:target="_blank" .btn .btn--primary .btn--large}
