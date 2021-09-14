@@ -116,7 +116,7 @@ For the image encoder, the authors looked at two choices and their variations â€
 2. Vision Transformer (ViT) â€“ This is a recent model that brings attention-based transformers from NLP to the domain of computer vision. The authors use the original architecture with the only change of using an additional layer-norm step on the embeddings before inputting to the transformer. 
 
 For the text encoder they used a Transformer with 63M paramters. The exact specifications are as follows - 
->  As a base size we use a 63M-parameter 12-layer 512-wide model with 8 attention heads. The transformer operates on a lower-cased byte pair encoding (BPE) representation of the text with a 49,152 vocab size.
+>  As a base size we use a 63M-parameter 12-layer 512-wide model with 8 attention heads. The transformer operates on a lower-cased byte pair encoding (BPE) representation of the text with a 49,152 vocab size.
 
 The authors experiment with various model sizes to calculate the effect on performance and compute requirements that you can find in the paper.
 
