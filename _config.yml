@@ -53,7 +53,7 @@ author:
   name: "Kartik Choudhary"
   avatar: "/assets/images/profile_pic_large.jpg"
   bio: | # MD allowed
-    Data scientist \| Machine learning enthusiast.
+    Data scientist \| Machine learning engineer
   location: "New Delhi, India"
   links:
     - label: "Email"
@@ -109,7 +109,8 @@ defaults:
       share: true
       related: true
       show_date: true
-      sidebar: all-posts
+      sidebar:
+        - nav: all-posts
       toc: true
       toc_sticky: false
 
