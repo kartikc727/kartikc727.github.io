@@ -22,4 +22,8 @@ feature_row:
 author_profile: true
 ---
 
+I am Kartik Choudhary - a machine learning engineer and data scientist. I like working with language models, understanding how the current state-of-the-art models work and trying to figure out how to use them in novel ways.
+
+I am also keen on learning about how RL agents can incorporate inputs from different modalities together to get information about their state.
+
 {% include feature_row %}

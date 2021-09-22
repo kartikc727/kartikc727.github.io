@@ -3,7 +3,7 @@ title: About
 layout: single
 permalink: /about/
 date: 2021-05-15 16:54:00+05:30
-last_modified_at: 2021-08-17 20:30:00+05:30
+last_modified_at: 2021-09-23 20:30:00+05:30
 # header:
 #   overlay_filter: "0.5"
 #   overlay_image: /assets/images/sample-img-wide.jpg
@@ -40,17 +40,16 @@ sidebar:
     •	Japanese
     "
   - title: Test Scores
-  - text: "
-    •	JEE (Advanced) : AIR 321
-    "
+  - text: " •	JEE (Advanced) : AIR 321"
+  - text: " • TOEFL iBT : 114"
     
 ---
 
-{% include figure image_path="/assets/images/profile_pic_large.jpg" alt="Profile picture" %}
+{% include figure image_path="/assets/images/profile_pic_large.jpg" alt="Profile picture" %}{: .align-center .width-half}
 
 I am a Data Scientist who loves basketball, high fantasy, astrophysics, and learning about the latest developments in NLP and Human-Centered AI.
 
-<br>
+<!-- <br>
 
 # EDUCATION
 
@@ -173,8 +172,8 @@ Apr 2018. [Credential ID 8SBJ3LHJEEFB](https://www.coursera.org/account/accompli
 
 **Volunteer Work:**  
 Surveying accessibility of public transportation in New Delhi for persons with disabilities and presenting the results and analysis to local transport agency. Working with NGO [AADI](https://www.facebook.com/aadi.india/) under [National Service Scheme](https://nss.gov.in/). March 2019.
-
+ -->
 
 
 [More about me](/not-ml/){: .btn .btn--primary .btn--large}
-[My CV](/documents/resume/CV-draft-3.pdf){:target="_blank" .btn .btn--primary .btn--large}
+[My CV](/documents/resume/CV-draft-5.pdf){:target="_blank" .btn .btn--primary .btn--large}

@@ -1,11 +1,11 @@
 ---
 layout: single
 title: "Linux CLI cheat sheet"
-twitter-image:  /assets/posts/linix-cheat-sheet/cheat-sheet_card.png
+twitter-image:  /assets/posts/linux-cheat-sheet/cheat-sheet_card.png
 excerpt: "Some useful commands and shortcuts for linux command line."
 header:
-  teaser: /assets/posts/linix-cheat-sheet/cheat-sheet_card.png
-  overlay_image:  /assets/posts/linix-cheat-sheet/cheat-sheet_header.png
+  teaser: /assets/posts/linux-cheat-sheet/cheat-sheet_card.png
+  overlay_image:  /assets/posts/linux-cheat-sheet/cheat-sheet_header.png
   overlay_filter: 0.5 # rgba(255, 0, 0, 0.5), linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
 date:   2021-05-12 20:30:00 +0530
 last_modified_at: 2021-07-02 20:30:00 +0530
