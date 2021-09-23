@@ -20,5 +20,7 @@ all-posts:
     children:
       - title: Linux CLI commands
         url: /other/linux/2021/05/12/linux_commands.html
+      - title: Statistics and Probability
+        url: /other/math/2021/09/22/stats-and-prob.html
       - title: VSCode commands
         url: /
