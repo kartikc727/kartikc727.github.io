@@ -18,9 +18,9 @@ all-posts:
         url: /ml/clip/2021/08/25/clip-model.html
   - title: See Also
     children:
-      - title: Linux CLI commands
+      - title: Linux CLI Commands
         url: /other/linux/2021/05/12/linux_commands.html
-      - title: Statistics and Probability
+      - title: Statistics and Probability Basics
         url: /other/math/2021/09/22/stats-and-prob.html
-      - title: VSCode commands
+      - title: VSCode Commands
         url: /

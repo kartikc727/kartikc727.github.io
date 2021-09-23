@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Linux CLI cheat sheet"
+title: "Linux CLI Cheat Sheet"
 twitter-image:  /assets/posts/linux-cheat-sheet/cheat-sheet_card.png
 excerpt: "Some useful commands and shortcuts for linux command line."
 header:
