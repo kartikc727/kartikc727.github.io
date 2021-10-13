@@ -59,4 +59,4 @@ One Hundred Years of Solitude, Gabriel García Márquez
 1. A Song of Ice and Fire, George R. R. Martin
 2. The Lord of The Rings, JRR Tolkien
 3. The Da Vinci Code, Dan Brown
-4. Sherlock Holmes: The Valley of Fear, Arthur Conan Doyle
+4. The Handmaid's Tale, Margaret Atwood
