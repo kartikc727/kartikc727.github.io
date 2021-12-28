@@ -6,7 +6,7 @@ header:
 sidebar:
   - image: /assets/projects/adversarial/sidebar.png
     image_alt: "sidebar image"
-    text: "Image credit [BIAR Blog](https://bair.berkeley.edu/blog/2017/12/30/yolo-attack/)"
+    text: "Image credit [BAIR Blog](https://bair.berkeley.edu/blog/2017/12/30/yolo-attack/)"
 twitter-image: /assets/projects/adversarial/teaser.png
 toc: true
 toc_sticky: true
@@ -43,7 +43,7 @@ we need to change our input (the image of the bird) to get the largest amount of
 
 This method requires access to the model architecture and weights in order to calculate the gradients, making it a white
 box attack. There are other methods that do not require the weights and only use the predict function to create adversarial
-examples.
+examples. Even physical objects can be used in many cases to create adversarial examples.
 
 ## Dataset
 
@@ -102,11 +102,18 @@ illumination or color of a few pixels are not perceptible to humans but these ar
 Unless we specifically instruct them to ignore these tiny changes, if they help them get their training loss down, the model
 will use them and pay attention to them.
 
+## References
+
+1. [Adversarial example using FGSM - TensorFlow Core][1]
+2. [Adversarial Examples - Interpretable Machine Learning (christophm.github.io)][2]
+3. [Physical Adversarial Examples Against Deep Neural Networks – The Berkeley Artificial Intelligence Research Blog][3]
+
 
 <!-- Links -->
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 [colab-notebook]: <https://colab.research.google.com/github/kartik727/ml-projects/blob/master/adversarial-examples/Adversarial_examples.ipynb> "Colab notebook"
 [gh-fork-shield]: <https://img.shields.io/github/forks/kartik727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
 [github-repo]: <https://github.com/kartik727/ml-projects/tree/master/adversarial-examples> "Github repository"
-[1]: <https://www.tensorflow.org/tutorials/generative/adversarial_fgsm> "Adversarial example using FGSM"
-[2]: <https://bair.berkeley.edu/blog/2017/12/30/yolo-attack/> "Berkeley Artificial Intelligence Research"
+[1]: <https://www.tensorflow.org/tutorials/generative/adversarial_fgsm> "Adversarial example using FGSM - TensorFlow Core"
+[2]: <https://christophm.github.io/interpretable-ml-book/adversarial.html> "Adversarial Examples - Interpretable Machine Learning (christophm.github.io)"
+[3]: <https://bair.berkeley.edu/blog/2017/12/30/yolo-attack/> "Physical Adversarial Examples Against Deep Neural Networks – The Berkeley Artificial Intelligence Research Blog"
