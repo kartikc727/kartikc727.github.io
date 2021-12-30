@@ -21,8 +21,8 @@ published: true
 ---
 
 Some shortcuts that I learned while working with Linux, most of these are very basic, so if
-you have a lot of experience working with the Linux shell, you probably won't find anything
-new here. I have categorised them from basic to advanced based on my own best judgement.
+you have even moderate experience working with the Linux shell, you probably won't find anything
+new here. I have categorized them from basic to advanced based on my own best judgement.
 
 
 # Basic
