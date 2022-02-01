@@ -112,7 +112,7 @@ defaults:
       sidebar:
         - nav: all-posts
       toc: true
-      toc_sticky: false
+      toc_sticky: true
 
   # _drafts
   - scope:

@@ -13,104 +13,55 @@ categories: other linux
 published: true
 
 # table
-# toc: true
+toc: false
 # toc_label: "Label goes here"
 # toc_icon: "<some font awesome icon>"
 # toc_sticky: true
 
 ---
 
-Some shortcuts that I learned while working with Linux, most of these are very basic, so if
+Some shortcuts that I learned while working with Linux. Most of these are very basic, so if
 you have even moderate experience working with the Linux shell, you probably won't find anything
-new here. I have categorized them from basic to advanced based on my own best judgement.
+new here.
 
+# Commands
 
-# Basic
+## sudo !!
 
+Run last command with sudo privileges
 
+## Separators
 
-1. **Ctrl + C**  
-Terminate a process. If you have a script running that is taking longer than expected or for some other reason you want to kill it.
+1. **;** - Separator. Run first command and then second command.
+2. **&&** - Logical *and*. Run second command only if first command exits successfully.
+3. **\|\|** - Logical *or*. Run second command only if first command fails.
 
+## Create multiple folders
 
+`mkdir -p folder/{dir1, dir2}/{dira, dirb, dirc}/{1..100}`
 
-2. **Ctrl + D**  
-Exit session / disconnect from a remote connection that you SSH'd into.
+## See directory size
 
+`du -sh dirname`
 
+## Monitor system
 
-3. **Tab**  
-Auto Complete commands or filenames. Shows a list in case of multiple matches.
+1. See free memory - `free` with `-m` or `-g` flags
+2. Process viewer - `htop`
 
+# Keyboard shortcuts
 
-4. **Up arrow / Down arrow**  
-Last run command. Up arrow populates your command prompt with the last run command, you can keep pressing Up to keep going back in the command history. Conversely, pressing Down arrow will do the opposite and cycle to the more recent commands.
+| Shortcut      | Function                                         |
+|---------------|--------------------------------------------------|
+| Ctrl+C        | Terminate Process                                |
+| Ctrl+D        | Exit session/disconnect from a remote connection |
+| Ctrl+L        | Scroll up to clear screen                        |
+| Ctrl+A        | Go to beginning of line                          |
+| Ctrl+E        | Go to end of line                                |
+| Alt+F/Alt+B   | Go one word forward/backward                     |
+| Ctrl+R        | Reverse i search                                 |
+| Ctrl+G        | Exit reverse i search                            |
+| Ctrl+K/Ctrl+U | Cut to the end/beginning of the line             |
+| Ctrl+Y        | Yank. Paste the cut items                        |
+| Ctrl+W        | Cut one word at a time                           |
 
-
-
-5. **clear / Ctrl + L**  
-Clear screen. Ctrl + L will scroll you up so that your current command is on the first line of the command window. Using the command `clear` will clear the window so you won’t be able to scroll up to see previous commands. Of course you can still press the Up arrow to cycle through your command history.
-
-
-# Intermediate
-
-1. **Ctrl + A**  
-Go to the beginning of the line. If you forget to write `sudo` before a command that requires elevated privileges, instead of using the left arrow to go back to the start of the line, you can press Ctrl + A to get to the beginning in one shot.
-
-
-
-2. **Ctrl + E**  
-End of the line. Opposite of Ctrl + A. After writing `sudo` at the start of the command, you can press Ctrl + E to go back to the end and finish typing your command.
-
-
-
-3. **Ctrl + C**  
-Get out of writing a command. If you want to cancel typing some command, you can press Ctrl + C to get to a new fresh line and start doing something else.
-
-
-
-4. **Alt + F / Alt + B**  
-Navigating the command word-by-word. Alt + F to go forward one word, Alt + B to go back one word
-
-
-
-5. **Ctrl + R**  
-Reverse i search.  Press Ctrl + R to go in reverse i search mode, type a substring of the command you want to search, you’ll get the most recent command that matches your search string. You can hit Ctrl + R again to go to the next most recent search and so on.
-
-
-
-6. **Ctrl + G**  
-Go back to whatever you were typing (preserves text). You can press Ctrl + G to exit reverse i search and your previously written command will be preserved.
-
-
-# Advanced
-
-1. **sudo !!**  
-Run the last run command with sudo.
-
-
-
-2. **Ctrl + K**  
-Cut to the end of the line (Kill). If your cursor is in the middle of a command, Ctrl + K will delete whatever is written after it.
-
-
-
-3. **Ctrl + U**  
-Cut to the beginning. Complementary to Ctrl + K.
-
-
-
-4. **Ctrl + Y**  
-Yank. Paste whatever you cut using Ctrl + K / Ctrl + U
-
-
-
-5. **Ctrl + W / Alt  + Backspace**  
-Cut one word at a time. Words cut using Ctrl + W can be yanked back, those cut with Alt + Backspace can’t.
-
-
-# References
-
-[tutoriaLinux (YouTube)](https://www.youtube.com/c/tutoriaLinux/featured)
-
-[Joe Collins (YouTube)](https://www.youtube.com/user/BadEditPro)

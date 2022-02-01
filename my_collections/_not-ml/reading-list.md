@@ -1,7 +1,9 @@
 ---
 title: "Reading list"
 twitter-image: /assets/images/teasers/reading_list.jpg
-excerpt: "What I enjoy reading outside of textbooks"
+excerpt: |
+  *A reader lives a thousand lives before he dies. The man who never reads lives only one.*  
+  -Jojen Reed, A Dance with Dragons
 header:
   teaser: /assets/images/teasers/reading_list.jpg
   overlay_image: /assets/images/header/reading_list.jpg
