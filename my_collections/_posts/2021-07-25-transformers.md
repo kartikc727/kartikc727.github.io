@@ -17,7 +17,7 @@ published: true
 # toc: true
 # toc_label: "Label goes here"
 # toc_icon: "<some font awesome icon>"
-# toc_sticky: true
+toc_sticky: false
 
 # sidebar
 sidebar:
