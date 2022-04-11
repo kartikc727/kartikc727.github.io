@@ -8,6 +8,7 @@ _patterns/data/
 _patterns/*.json
 _patterns/experimental.ipynb
 .env/
+env/
 .vscode/
 vendor
 *.xlsx
