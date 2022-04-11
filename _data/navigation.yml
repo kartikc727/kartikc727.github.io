@@ -10,17 +10,19 @@ main:
 all-posts:
   - title: All Posts
     children:
-      - title: Generative Adversarial Networks
-        url: /ml/gan/2021/06/01/gans.html
-      - title: Transformer Model
-        url: /ml/transformer/2021/07/25/transformers.html
+      - title: Normalization Methods
+        url: /ml/2022/01/25/normalization.html
       - title: OpenAI CLIP
         url: /ml/clip/2021/08/25/clip-model.html
+      - title: Transformer Model
+        url: /ml/transformer/2021/07/25/transformers.html
+      - title: Generative Adversarial Networks
+        url: /ml/gan/2021/06/01/gans.html
   - title: See Also
     children:
-      - title: Linux CLI Commands
-        url: /other/linux/2021/05/12/linux_commands.html
       - title: Statistics and Probability Basics
         url: /other/math/2021/09/22/stats-and-prob.html
-      - title: VSCode Commands
-        url: /
+      - title: Linux CLI Commands
+        url: /other/linux/2021/05/12/linux_commands.html
+      - title: VS Code Shortcuts
+        url: /other/editor/2021/05/13/vscode_shortcuts.html
