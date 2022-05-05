@@ -12,7 +12,7 @@ header:
 
 date:   2021-07-02 20:30:00 +0530
 last_modified_at: 2021-12-21 20:30:00 +0530
-categories: not-ml
+categories: about-me
 published: true
 
 # table
@@ -24,14 +24,14 @@ toc_sticky: true
 
 # Currently Reading
 
- * Six of Crows, Leigh Bardugo
+ * Sapiens: A Brief History of Humankind, Yuval Noah Harari
+ * Jane Eyre, Charlotte Brontë
  * One Hundred Years of Solitude, Gabriel García Márquez
- * Train to Pakistan, Khushwant Singh
 
 
 # Reading list
 
- * Sapiens: A Brief History of Humankind, Yuval Noah Harari
+ * Physics of the Impossible, Michio Kaku
  * One Flew Over the Cuckoo's Nest, Ken Kesey
  * Girl with a Pearl Earring, Tracy Chevalier
  * Parallel Worlds, Michio Kaku
@@ -58,7 +58,7 @@ toc_sticky: true
  2. To Kill a Mockingbird, Harper Lee
  3. The Handmaid's Tale, Margaret Atwood
  4. The Great Gatsby, F. Scott Fitzgerald
- 5. The Fault in Our Stars, John Green
+ 5. Six of Crows, Leigh Bardugo
 
 
 See more at my [goodreads](https://www.goodreads.com/user/show/79514869-kartik) page.

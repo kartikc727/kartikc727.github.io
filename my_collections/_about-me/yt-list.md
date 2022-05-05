@@ -1,16 +1,16 @@
 ---
 title: "Favourite YT channels"
-twitter-image: /assets/images/default-teaser.jpg
+twitter-image: /assets/images/teasers/yt_channels.jpg
 excerpt: "Some youtube channels that I really enjoy watching."
 header:
-  teaser: /assets/images/default-teaser.jpg
-  overlay_image: /assets/images/sample-img-wide.jpg
+  teaser: /assets/images/teasers/yt_channels.jpg
+  overlay_image: /assets/images/header/yt_channels.jpg
   overlay_filter: 0.5 # rgba(255, 0, 0, 0.5), linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  # caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
 date:   2021-06-21 20:30:00 +0530
 last_modified_at: 2021-06-21 20:30:00 +0530
-categories: not-ml
+categories: about-me
 published: true
 
 # table

@@ -1,8 +1,8 @@
 ---
-title: Not ML
+title: About Me
 layout: collection
-permalink: /not-ml/
-collection: not-ml
+permalink: /about-me/
+collection: about-me
 entries_layout: grid
 classes: wide
 author_profile: true

@@ -17,8 +17,11 @@ excerpt: "NA"
 
 {% include figure image_path="/assets/images/profile_pic_large.jpg" alt="Profile picture" %}{: .align-center .width-half}
 
-I am a Data Scientist who loves basketball, high fantasy, astrophysics, and learning about the latest developments in NLP and Human-Centered AI.
+I am Kartik Choudhary - incoming graduate student in the College of Information and Computer Science at the University 
+of Massachusetts Amherst. My interests include Natural Language Processing and Reinforcement Learning. Specifically, 
+I want to build tools that make technology more accessible and universal. I love basketball, reading fantasy novels,
+casual astrophysics, and EDM.
 
 
-[More about me](/not-ml/){: .btn .btn--primary .btn--large}
+[More about me](/about-me/){: .btn .btn--primary .btn--large}
 [My CV](/documents/resume/CV-Oct-21.pdf){:target="_blank" .btn .btn--primary .btn--large}

@@ -19,7 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 # Variables
-social_email: &social_email "mailto:kartikchoudhary9@gmail.com"
 social_twitter: &social_twitter "https://twitter.com/kartik_727"
 social_github: &social_github "https://github.com/kartik727"
 social_linkedin: &social_linkedin "https://www.linkedin.com/in/kartik727/"
@@ -53,12 +52,13 @@ author:
   name: "Kartik Choudhary"
   avatar: "/assets/images/profile_pic_large.jpg"
   bio: | # MD allowed
-    Data scientist \| Machine learning engineer
+    Graduate Student \| UMass Amherst
+    <details markdown=block>
+    <summary markdown=span><span style="font-size:80%">Email</span></summary>
+    kartikchoudh [at] umass [dot] edu
+    </details>
   location: "New Delhi, India"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: *social_email
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: *social_twitter
@@ -81,7 +81,7 @@ author:
 # remote theme for gh pages
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
-minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
   - jekyll-paginate
@@ -142,10 +142,10 @@ defaults:
       toc: true
       toc_sticky: true
 
-  # _not-ml
+  # _about-me
   - scope:
       path: ""
-      type: not-ml
+      type: about-me
     values:
       layout: single
       author_profile: true
@@ -172,7 +172,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  not-ml:
+  about-me:
     output: true
     permalink: /:collection/:path/
 

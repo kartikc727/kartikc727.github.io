@@ -14,16 +14,15 @@ feature_row:
     btn_label: "Click Here"
     btn_class: "btn--primary"
   - image_path: /assets/images/home/other.jpg
-    title: "Not ML"
-    url: "/not-ml/"
+    title: "About Me"
+    url: "/about/"
     btn_label: "Click Here"
     btn_class: "btn--primary"
 
 author_profile: true
 ---
 
-I am Kartik Choudhary - a machine learning engineer and data scientist. I like working with language models, understanding how the current state-of-the-art models work and trying to figure out how to use them in novel ways.
-
-I am also keen on learning about how RL agents can incorporate inputs from different modalities together to get information about their state.
+I am Kartik Choudhary - incoming graduate student in the College of Information and Computer Science at the University
+of Massachusetts Amherst.
 
 {% include feature_row %}
