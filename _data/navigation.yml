@@ -10,6 +10,10 @@ main:
 all-posts:
   - title: All Posts
     children:
+      - title: MLE vs MAP estimate
+        url: /ml/2022/04/01/mle-vs-map.html
+      - title: Normalization Methods
+        url: /ml/2022/01/25/normalization.html
       - title: Generative Adversarial Networks
         url: /ml/gan/2021/06/01/gans.html
       - title: Transformer Model
