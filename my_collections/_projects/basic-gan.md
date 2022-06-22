@@ -37,7 +37,7 @@ dataset-samples:
     alt: "Sample image from dataset"
     title: "Sample image. Label: Rock"
 ---
-[![Open In Colab][colab-badge]][colab-notebook] [![Github forks][gh-fork-shield]][github-repo]
+[![Open In Colab][colab-badge]][colab-notebook]{:target="_blank"} [![Github forks][gh-fork-shield]][github-repo]{:target="_blank"}
 
 # Introduction
 
