@@ -22,7 +22,7 @@ feature_row:
 author_profile: true
 ---
 
-I am Kartik Choudhary - incoming graduate student in the College of Information and Computer Science at the University
+I am Kartik Choudhary - graduate student in the College of Information and Computer Science at the University
 of Massachusetts Amherst.
 
 {% include feature_row %}
