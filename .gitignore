@@ -12,3 +12,4 @@ env/
 .vscode/
 vendor
 *.xlsx
+.DS_Store

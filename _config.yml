@@ -23,6 +23,7 @@ social_twitter: &social_twitter "https://twitter.com/kartik_727"
 social_github: &social_github "https://github.com/kartik727"
 social_linkedin: &social_linkedin "https://www.linkedin.com/in/kartik727/"
 social_kaggle: &social_kaggle "https://www.kaggle.com/kartikchoudhary727"
+social_orcid: &social_orcid "https://orcid.org/0000-0002-0673-1221"
 
 # Basic info
 title: "ML by Kartik"
@@ -59,18 +60,21 @@ author:
     </details>
   location: "Amherst, MA"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: *social_twitter
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: *social_github
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: *social_linkedin
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: *social_github
+    - label: "ORCiD"
+      icon: "fab fa-fw fa-orcid"
+      url: *social_orcid
     - label: "Kaggle"
       icon: "fab fa-fw fa-kaggle"
       url: *social_kaggle
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: *social_twitter
 
 # Build settings
 # theme: minima
@@ -81,7 +85,7 @@ author:
 # remote theme for gh pages
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
-minimal_mistakes_skin: "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
   - jekyll-paginate
