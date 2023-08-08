@@ -1,30 +1,16 @@
+# main links links
 main:
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Projects"
-    url: /projects/
-  - title: "About"
-    url: /about/
+  - title: "Portfolio"
+    url: /portfolio/
 
-## Top Level 
-all-posts:
-  - title: All Posts
-    children:
-      - title: MLE vs MAP estimate
-        url: /ml/2022/04/01/mle-vs-map.html
-      - title: Normalization Methods
-        url: /ml/2022/01/25/normalization.html
-      - title: Generative Adversarial Networks
-        url: /ml/gan/2021/06/01/gans.html
-      - title: Transformer Model
-        url: /ml/transformer/2021/07/25/transformers.html
-      - title: OpenAI CLIP
-        url: /ml/clip/2021/08/25/clip-model.html
-  - title: See Also
-    children:
-      - title: Linux CLI Commands
-        url: /other/linux/2021/05/12/linux_commands.html
-      - title: Statistics and Probability Basics
-        url: /other/math/2021/09/22/stats-and-prob.html
-      - title: VSCode Commands
-        url: /
+  - title: "Publications"
+    url: /publications/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Teaching"
+    url: /teaching/    
+    
+  - title: "Blog Posts"
+    url: /year-archive/

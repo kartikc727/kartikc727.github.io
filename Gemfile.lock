@@ -261,16 +261,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   hawkins
-  jekyll-feed (~> 0.12)
-  jekyll-gist
-  jekyll-include-cache
-  jekyll-paginate
+  jekyll-feed
   jekyll-sitemap
   jekyll-target-blank
-  jemoji
-  tzinfo (~> 1.2)
-  tzinfo-data
-  wdm (~> 0.1.1)
   webrick (~> 1.7)
 
 BUNDLED WITH
