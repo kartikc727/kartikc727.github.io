@@ -1,30 +1,25 @@
 ---
-title: About
-layout: single
-permalink: /about/
-date: 2021-05-15 16:54:00+05:30
-last_modified_at: 2022-06-10 20:30:00+05:30
-# header:
-#   overlay_filter: "0.5"
-#   overlay_image: /assets/images/sample-img-wide.jpg
-#   actions:
-#     - label: "My Resume"
-#       url: "/documents/resume/kartik-resume-placeholder.pdf"
-excerpt: "NA"
-
-    
+permalink: /
+title: "ML By Kartik"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
-{% include figure image_path="/assets/images/profile_pic_2_large.jpg" alt="Profile picture" %}{: .align-center .width-half}
-
-I am Kartik Choudhary - graduate student in the [College of Information and Computer Science](https://www.cics.umass.edu/) at the [University of Massachusetts Amherst](https://www.umass.edu/). My interests include natural language processing and reinforcement learning, and their applications in AI safety and interpretability. 
+I am Kartik Choudhary -- graduate student in the [College of Information and Computer Science](https://www.cics.umass.edu/) at the [University of Massachusetts Amherst](https://www.umass.edu/). My interests include natural language processing and reinforcement learning. Specifically, my research is aimed at elevating the capabilities and reliability of generative AI models. 
 {: .text-justify}
 
-Currently I am looking for internships in Data Science and Machine Learning roles for the Summer of 2023 within the US. I also love playing basketball, reading fantasy novels, casual astrophysics, and playing CS:GO.
+As a data scientist and ML engineer, I have over three years of experience leveraging massive amounts of data to drive growth and enhance user experiences in the domains of telecom, advertising, and customer service.
 {: .text-justify}
 
-I started this website because I wanted a way to organize my notes, and putting my notes on a public website would make me to put more effort and polish into my work. If someone else finds my work useful, that is just added bonus. Any feedback on how I can improve my work, or suggestions on what I should write about next are very welcome.
+I bring experience in building scalable ML solutions, serving hundreds of millions of customers, by utilizing tools such as PyTorch, Spark, SQL, and Tableau. I have a proven track record of leveraging machine learning, data analytics, and visualization to improve customer experience while reducing operating costs.
 {: .text-justify}
 
-[More about me](/about-me/){: .btn .btn--primary .btn--large}
-[Resume](/documents/resume/Resume-Jan-23.pdf){:target="_blank" .btn .btn--primary .btn--large}
+I love playing basketball, reading fantasy novels, cooking, and casual astrophysics. Currently, I am actively seeking full-time positions in data science and machine learning roles. Check out my portfolio to take a look at some of my personal projects.
+{: .text-justify}
+
+<style>.libutton { display: flex; flex-direction: column; justify-content: center; padding: 7px; text-align: center; outline: none; text-decoration: none !important; color: #ffffff !important; width: 200px; height: 32px; border-radius: 16px; background-color: #0A66C2; font-family: "SF Pro Text", Helvetica, sans-serif; } </style>
+
+<a class="libutton" href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=kartik727" target="_black">Follow on LinkedIn</a>
