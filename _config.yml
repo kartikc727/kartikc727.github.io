@@ -65,8 +65,10 @@ analytics:
 author:
   name             : "Kartik Choudhary"
   avatar           : "/assets/images/profile_pic_large.jpg"
-  bio              : | # MD allowed
-    Grad Student | UMass Amherst
+  bio              : > # MD allowed
+    CS Grad Student at UMass Amherst 
+    |
+    Data Scientist, ML Engineer
   location         : "Amherst, MA"
   employer         :
   pubmed           :

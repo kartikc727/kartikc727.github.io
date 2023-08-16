@@ -9,9 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Skilled data scientist and machine learning engineer with over three years of experience in building enterprise-scale machine learning applications. Proficient in designing and implementing robust and high-performance solutions on distributed platforms. Looking to leverage my strong technical and communication skills to drive innovation and create a positive impact.
-
-[Professional Resume](/files/resume/resume_20230719.pdf){:target="_blank" .btn .btn--primary .btn--large}
+[Professional Resume (PDF)](/files/resume/resume_20230816.pdf){:target="_blank" .btn .btn--primary .btn--large}
 
 # Education
 
@@ -25,15 +23,15 @@ Sep 2022 - Present
 
 ### Autonomous Learning Laboratory
 
-  * Developed off-policy evaluation and learning algorithms to provide real-time personalized treatment for sepsis patients. 
+  * Developed off-policy algorithms to learn personalized sepsis treatment policies from historical ICU data of over 17K patients. 
+  * Contributed to the Seldonian ML Toolkit, an open-source Python library for safe and interpretable machine learning.
   * Used the Seldonian framework to learn policies that perform higher than current practice and provide safety guarantees.
-  * Built a sepsis simulator using historical data from over 17K ICU patients and evaluated data efficiency of learning algorithms.
 
 ### Natural Language Processing Group
   
-  * Evaluated the zero-shot ability of vision-language models like CLIP to associate correct comparative adjectives to images.
-  * Created a novel dataset to evaluate comparative reasoning capabilities of vision-enabled large language models like GPT-4.
-  * Assessed various failure modes and developed a self-supervised prompt engineering method for fine-tuning the models.
+  * Conducted a study to evaluate the ability of large vision-language models to perform comparative reasoning.
+  * Curated a novel dataset to evaluate multi-modal reasoning capabilities of vision-enabled large language models like GPT-4.
+  * Developed a self-supervised prompt engineering method to achieve 53.7% accuracy for zero-shot comparative reasoning.
 
 ## Undergraduate Student Researcher, IIT Delhi
 May 2017 - Jun 2019
@@ -57,19 +55,19 @@ Jul 2021 - Jul 2022
 
 Led the initiative to develop cost-effective solutions for improving the 4G experience for customers and providing network insights.
     
-* Attained a 15% improvement in network throughput predictions by implementing an explainable Mixture of Experts model.
-* Overhauled the root cause analysis pipeline for call drops and mutes by computing SHAP scores of the input features.
-* Introduced a statistical model using response surface methodology to suggest network improvement strategies at cell level.
+* Coordinated a team of 6 to design a statistical model using response surface methodology for optimizing network coverage.
+* Attained a 15% improvement in network throughput predictions by implementing a Mixture of Experts model with PyTorch.
+* Overhauled the call drop RCA pipeline by utilizing SHAP scores resulting in 18% fewer false positives in downstream tasks.
 
 ## Data Scientist, Reliance Jio Infocomm Ltd.
 Jul 2019 - Jun 2021
 
-Used statistical and machine learning methods to gain actionable insights into customer behavior and refine retention strategies. 
+Used machine learning and Bayesian statistics to gain actionable insights into customer behavior and refine retention strategies. 
 
-* Curated over 1100 features for customer profiling on a high-performance computing cluster using Apache Spark.
-* Developed a distributed model using TensorFlow and Apache Airflow to perform churn prediction for 400M+ daily customers.
+* Deployed a distributed model with Apache Spark and MS Azure to perform churn prediction for 400M+ daily customers.
+* Curated over 1100 features for churn prediction to improve customer retention resulting in $35M/mo in additional revenue.
+* Collaborated with vendors to launch A/B testing of ad campaigns on geographic cohorts and created a Tableau dashborad.
 * Reduced data pre-processing time by 70% during ETL by implementing a multiprocessing pipeline for feature extraction.
-* Launched A/B testing of marketing campaigns on geographic cohorts improving confidence levels in demand forecasts.
 
 ## Intern, Claym Media and Tech Pvt. Ltd.
 Summer 2018
@@ -78,40 +76,6 @@ Developed an automated solution for analyzing financial reports and detecting fr
 
 * Created a low-latency pipeline in Java for the AI-driven framework to flag potentially fraudulent transactions in real time.
 * Standardized reports of 50M+ monthly transactions from 20+ sources by regex string manipulation in a modular framework. 
-  
-# Skills
-
-* Programming Languages
-  * Python
-  * R
-  * C++
-  * SQL
-  * Java
-  * Bash
-
-* Tools
-  * SciPy
-  * Matplotlib
-  * Scikit-learn
-  * Jupyter
-  * Git
-  * Linux
-
-* Big Data
-  * Spark
-  * Hadoop
-  * Hive
-  * Azure
-  * Airflow
-  * Tableau
-  * MongoDB
-
-* Data Science
-  * PyTorch
-  * TensorFlow
-  * Jax
-  * AWS
-  * GCP
 
 # Publications
 
@@ -121,15 +85,15 @@ Developed an automated solution for analyzing financial reports and detecting fr
   
 # Teaching
 
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 # Leadership and Awards
 
 * Highest annual performance feedback rating (A*) for 3 years in a row, Reliance Jio, 2020-22
-* Student Mentor, Mentorship Committee, IIT Delhi, 2018-19
 * Outstanding Technical Project, AI CoE, Reliance Jio, 2019
+* Student Mentor, Mentorship Committee, IIT Delhi, 2018-19
 * Secretary, Electrical Engineering Society, IIT Delhi, 2017-18
 * Director, Theater Society, IIT Delhi, 2017-18
 * JEE Advanced - National Rank 321 among 1.5 million total applicants, 2015

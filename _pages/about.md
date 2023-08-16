@@ -8,8 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am Kartik Choudhary - graduate student in the [College of Information and Computer Science](https://www.cics.umass.edu/) at the [University of Massachusetts Amherst](https://www.umass.edu/). My interests include natural language processing and reinforcement learning, and their applications in AI safety and interpretability. 
+I am Kartik Choudhary -- graduate student in the [College of Information and Computer Science](https://www.cics.umass.edu/) at the [University of Massachusetts Amherst](https://www.umass.edu/). My interests include natural language processing and reinforcement learning. Specifically, my research is aimed at elevating the capabilities and reliability of generative AI models. 
 {: .text-justify}
 
-Currently I am looking for internships in Data Science and Machine Learning roles for the Summer of 2023 within the US. I also love playing basketball, reading fantasy novels, casual astrophysics, and playing CS:GO.
+As a data scientist and ML engineer, I have over three years of experience leveraging massive amounts of data to drive growth and enhance user experiences in the domains of telecom, advertising, and customer service.
 {: .text-justify}
+
+I bring experience in building scalable ML solutions, serving hundreds of millions of customers, by utilizing tools such as PyTorch, Spark, SQL, and Tableau. I have a proven track record of leveraging machine learning, data analytics, and visualization to improve customer experience while reducing operating costs.
+{: .text-justify}
+
+I love playing basketball, reading fantasy novels, cooking, and casual astrophysics. Currently, I am actively seeking full-time positions in data science and machine learning roles. Check out my portfolio to take a look at some of my personal projects.
+{: .text-justify}
+
+<style>.libutton { display: flex; flex-direction: column; justify-content: center; padding: 7px; text-align: center; outline: none; text-decoration: none !important; color: #ffffff !important; width: 200px; height: 32px; border-radius: 16px; background-color: #0A66C2; font-family: "SF Pro Text", Helvetica, sans-serif; } </style>
+
+<a class="libutton" href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=kartik727" target="_black">Follow on LinkedIn</a>
