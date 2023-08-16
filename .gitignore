@@ -10,6 +10,5 @@ _patterns/experimental.ipynb
 .env/
 env/
 .vscode/
-vendor
 *.xlsx
 .DS_Store
