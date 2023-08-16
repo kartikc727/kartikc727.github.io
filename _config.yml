@@ -42,7 +42,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "kartik727"
+  username               : &twitter "kartik_727"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -95,7 +95,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "kartik727"
+  twitter          : "kartik_727"
   vine             :
   weibo            :
   xing             :
