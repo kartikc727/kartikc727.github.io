@@ -313,8 +313,8 @@ Using this information, the model can greet the customer and start the conversat
 >
 > **Customer**: Hi I ordered some stuff hasnt arrived yet, but the app says delivered
 >
-> **Assistant**: I apologize for any confusion or inconvenience caused. It seems t
-> hat the status of your order is showing as delivered. However, if you have not 
+> **Assistant**: I apologize for any confusion or inconvenience caused. It seems
+> that the status of your order is showing as delivered. However, if you have not 
 > received your order, I understand your concern. Could you please provide me with 
 > some more details about the order so that I can assist you further?
 >
