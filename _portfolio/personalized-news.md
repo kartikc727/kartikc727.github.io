@@ -1,6 +1,6 @@
 ---
 title: "Personalized News Summarizer"
-excerpt: "A personalized news page that summarizes real-time news using the BART model from HuggingFace, using a MongDB backend and hosted on Google Cloud Platform"
+excerpt: "A personalized news page that summarizes real-time news using the BART model from HuggingFace, using a MongoDB backend and hosted on Google Cloud Platform"
 collection: portfolio
 date: 2022-12-20 20:30:00 -0500
 last_modified_at: 2023-07-24 08:30:00 -0500
