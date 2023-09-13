@@ -21,7 +21,7 @@ to the image such that there is little to no visual change to the image but now 
 say, a frog.
 
 {% include figure 
-image_path="/assets/projects/adversarial/adversarial_attack.png"
+image_path="images/assets/projects/adversarial/adversarial_attack.png"
 alt="Adversarial example" 
 caption="Changing the image in a way that is imperceptible to humans can still lead to change in the prediction by neural networks"
  %}
@@ -80,7 +80,7 @@ We can see why this method is called the 'fast' gradient sign method. We just ne
 add the resulting gradient signs in whatever proportion we want.
 
 {% include figure 
-image_path="/assets/projects/adversarial/fgsm_example.png"
+image_path="images/assets/projects/adversarial/fgsm_example.png"
 alt="Example of images" 
 caption="Examples where images are gradually perturbed using the gradients and how the perturbations affect the model predictions."
  %}
