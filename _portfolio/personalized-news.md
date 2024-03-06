@@ -7,12 +7,6 @@ last_modified_at: 2023-07-24 08:30:00 -0500
 ---
 [![Github forks][gh-fork-shield]][github-repo]
 
-{% include figure 
-image_path="/images/assets/projects/newspage/newspage-ss.png"
-alt="Screenshot" 
-caption="A screenshot of the news page showing the latest news articles from a variety of sources"
- %}
-
 Staying up to date with the latest news is necessary in today's world, but it is 
 also becoming increasingly difficult to do so. There are so many news sources, 
 with difficult-to-navigate websites, and clickbait titles and descriptions that
