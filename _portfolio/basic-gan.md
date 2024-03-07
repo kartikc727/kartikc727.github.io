@@ -43,7 +43,7 @@ two neural networks that work against each other while training. You can learn m
 In this example we will use the [Rock Paper Scissors][1] dataset. This dataset contains about 2500 RGB CGI images of hands in
 the "stone", "paper" or "scissors" positions with a 300x300 pixel resolution. Some example images are shown below:
 
-{% include gallery id="dataset-samples" caption="Sample images from the dataset. Click to enlarge images." %}
+{% include gallery id="dataset-samples" caption="Sample images from the dataset. Click to enlarge images. Source: [Rock Paper Scissors][1] dataset" %}
 
 ## Image resizing
 
