@@ -182,8 +182,6 @@ def homepage():
 
 If the user wants to read the full article, they can click on the article title,
 which will redirect them to the original article on the news website. 
-An example of the web page can be seen [here][18]{:target="_blank"} in case my GCP credits have expired
-and the live version is not available.
 
 <!-- Links -->
 [gh-fork-shield]: <https://img.shields.io/github/forks/kartik727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
@@ -205,4 +203,3 @@ and the live version is not available.
 [15]: <https://flask.palletsprojects.com/en/2.0.x/> "Flask"
 [16]: <https://flask.palletsprojects.com/en/2.3.x/> "Frozen Flask"
 [17]: <https://cloud.google.com/storage> "Cloud Storage - GCP"
-[18]: </assets/portfolio/newspage/index.html> "Personalized News Summarizer"
