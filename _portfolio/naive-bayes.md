@@ -13,8 +13,8 @@ last_modified_at: 2022-06-21 20:30:00 +0530
 Naive Bayes is a text classifier that uses Bayes' rule along with a few simplifying assumptions to predict the class
 of an unseen document.
 
-For a classification task, we are given a document $D$ and need to predict the class $c \in C$ where $C$ is the 
-set of possible classes. To do this, we calculate the probability of the predicted class given the document $P(c|D)$. 
+For a classification task, we are given a document \\(D\\) and need to predict the class \\(c \in C\\) where \\(C\\) is the 
+set of possible classes. To do this, we calculate the probability of the predicted class given the document \\(P(c|D)\\). 
 The class with the highest posterior probability is our predicted class.
 
 $$
@@ -38,7 +38,7 @@ $$
 c_{pred} = \underset{c \in C}{\mathrm{argmin}} P(c) \prod_i P(w_i|c)
 $$
 
-Where $w_i$ are the words in the document $D$.
+Where \\(w_i\\) are the words in the document \\(D\\).
 
 To avoid numerical instability that might arise due to multiplying a lot of small numbers together, we can take the
 logarithm of the posterior probabilities. Thus-

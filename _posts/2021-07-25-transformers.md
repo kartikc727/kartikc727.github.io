@@ -86,7 +86,7 @@ $$ \small{A = Q \times K^{T}} $$
 
 Let’s look at these matrices in a little bit more detail. In the attention matrix, the value of the (i, j)<sup>th</sup> cell is the dot product of the i<sup>th</sup> row in the **Q** matrix and j<sup>th</sup> row in the **K** matrix. The Query matrix **Q** stores the “queries” - what information is the word looking for in the other words in the sentence? The Key matrix **K** stores the “keys” - what information can that particular word provide? Since the dot product gives us a measure of similarity between two vectors, we can think of the value of the (i, j)<sup>th</sup> cell as the relevance of word _j_ while encoding word _i_ in the sentence i.e. a measure of how much information relevant to the word being encoded is provided by the word being queried.
 
-Finally, softmax is applied to this matrix to normalize the attention values such that the “relevance scores” of all the words used for encoding a particular word add up to 1. In practice, the matrix is also divided by the square root of the size of key vectors ($ \sqrt{D_K} $) before the softmax step , this scaling helps to prevent the values from going into regions of the softmax function with extremely small gradients. This attention matrix is finally multiplied by the Value matrix so that now each word’s encoding is a sum of encodings of the input words scaled by their relevance. The final formula for dot-product attention thus becomes:
+Finally, softmax is applied to this matrix to normalize the attention values such that the “relevance scores” of all the words used for encoding a particular word add up to 1. In practice, the matrix is also divided by the square root of the size of key vectors (\\( \sqrt{D_K} \\)) before the softmax step , this scaling helps to prevent the values from going into regions of the softmax function with extremely small gradients. This attention matrix is finally multiplied by the Value matrix so that now each word’s encoding is a sum of encodings of the input words scaled by their relevance. The final formula for dot-product attention thus becomes:
 
 $$ \small{Attention(Q, K, V) = softmax(\frac{Q \times K^T}{\sqrt{D_K}}) \times V} $$
 
@@ -159,7 +159,7 @@ The decoder works very similarly to the encoder, with a few important difference
 
 ## Masked Self-Attention
 
-The first attention sublayer is also a multi-head self-attention sublayer, but this time, a word is only allowed to attend to itself and the words before it, and no words that come after it. This is done by masking the future words, i.e., by replacing the values of the cells (i, j) where (j > i) in the attention matrix ($ Q \times K^{T} $) with `-infinity` before the softmax step. This means that after the softmax step, the attention value of future words will become zero.
+The first attention sublayer is also a multi-head self-attention sublayer, but this time, a word is only allowed to attend to itself and the words before it, and no words that come after it. This is done by masking the future words, i.e., by replacing the values of the cells (i, j) where (j > i) in the attention matrix (\\( Q \times K^{T} \\)) with `-infinity` before the softmax step. This means that after the softmax step, the attention value of future words will become zero.
 
 This is done because while creating the translated sentence, we start with an empty sentence and create the sentence one word at a time until a special end-of-sentence character is generated or the maximum length of the output sentence is reached.
 

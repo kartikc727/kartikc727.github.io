@@ -7,16 +7,16 @@ last_modified_at: 2024-06-06 08:30:00 -0500
 ---
 
 Responsible AI tools should be able to work with a broad spectrum of machine learning models and datasets. Much of this
-functionality is based on the ability to call predict or predict_proba on a model and get back the predicted values or
-probabilities in a specific format.
+functionality is based on the ability to call `predict` or `predict_proba` on a model and get back the predicted values
+or probabilities in a specific format.
 
 However, there are many different models outside of scikit-learn and even within scikit-learn which have unusual
-outputs or require the input in a specific format. Some, like pytorch, don’t even have the predict/predict_proba
+outputs or require the input in a specific format. Some, like pytorch, don't even have the `predict`/`predict_proba`
 function specification.
 
 These wrappers handle a variety of frameworks, including pytorch, tensorflow, keras wrappers on tensorflow, variations
-on scikit-learn models (such as the SVC classification model that doesn’t have a predict_proba function), lightgbm and
-xgboost, as well as certain strange pipelines we have encountered from customers and internal users in the past.
+on scikit-learn models (such as the SVC classification model that doesn't have a `predict_proba` function), lightgbm
+and xgboost, as well as certain strange pipelines we have encountered from customers and internal users in the past.
 
 ## Contributions
 

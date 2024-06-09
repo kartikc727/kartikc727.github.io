@@ -28,4 +28,4 @@ end
 
 # Blank Target
 gem "jekyll-target-blank"
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"

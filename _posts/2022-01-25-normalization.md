@@ -38,13 +38,13 @@ Some common normalization methods are:
 
 This is one of the most common normalization methods. Batch norm normalizes the features along the batch dimension, i.e., it calculates the mean and standard deviation for each feature using a mini-batch. If we keep the batch size sufficiently large (e.g., 32 or more), then the batch statistics are a reasonable substitute for the statistics of the entire dataset.
 
-Let's take the example of training for a vision task given in the paper for [Instance Normalization][1] where the images come in batches of shape TxCxWxH. Here, 
+Let's take the example of training for a vision task given in the paper for [Instance Normalization][1] where the images come in batches of shape \\(T \times C \times W \times H\\). Here, 
 
 * T is the number of images in a batch
 * C is the number of channels (e.g., 3 channels of color images)
 * WxH are the spatial dimensions of the image.
 
-For input value $x_{tijk}$ batch normalization converts it into the output $ \hat{x}_{tijk} $ in the following way:
+For input value \\(x_{tijk}\\) batch normalization converts it into the output \\( \hat{x}_{tijk} \\) in the following way:
 
 $$
 \hat{x}_{tijk} = \frac{x_{tijk} - \mu_i}{\sqrt{\sigma^2_{i} + \epsilon}}  
@@ -139,20 +139,20 @@ $$
 \sigma^2_{tu} = \frac{1}{HWG_u}\sum^{W}_{l=1}\sum^{H}_{m=1}\sum_{i \in \mathbb{G_u}}(x_{tilm} - \mu_{tu})^2
 $$
 
-Here, $ G_u $ is the size of group $u$ and $ \mathbb{G_u} $ is the set with all the channels in group $u$. 
+Here, \\( G_u \\) is the size of group \\(u\\) and \\( \mathbb{G_u} \\) is the set with all the channels in group \\(u\\). 
 
 Layer norm and instance norm can be seen as special cases of group norm.
 If the number of groups is 1, then group normalization is equivalent to layer norm, and if the number of groups is the same as the number of channels, i.e., each group has only one channel, then it is equivalent to instance norm. 
 
 # Further Processing
 
-Once $ x $ is normalized to create $\hat{x}$, we can rescale the values for different channels in the following way:
+Once \\( x \\) is normalized to create \\(\hat{x}\\), we can rescale the values for different channels in the following way:
 
 $$
 y_i = \gamma_i \hat{x}_i + \beta_i
 $$
 
-Where $\gamma_i$ and $\beta_i$ are learned parameters. This compensates for possible loss of representational ability that might have occurred due to normalization, making sure 
+Where \\(\gamma_i\\) and \\(\beta_i\\) are learned parameters. This compensates for possible loss of representational ability that might have occurred due to normalization, making sure 
 performance does not degrade.
 
 # References
