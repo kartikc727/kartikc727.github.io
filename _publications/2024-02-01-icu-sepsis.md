@@ -5,8 +5,6 @@ permalink: /publication/2024-02-01-icu-sepsis
 excerpt: 'We propose a novel benchmark MDP for sepsis treatment in the ICU built using medical data from real patients.'
 date: 2024-02-01
 venue: 'Reinforcement Learning Conference'
-# paperurl: ''
-# citation: ''
 ---
 
 {% include figure image_path="images/assets/publications/icu-sepsis/sepsis-fig-timeline.png"
@@ -24,20 +22,21 @@ not be used to draw conclusions that guide medical practice.
 
 Accepted at the [Reinforcement Learning Conference](https://rl-conference.cc/), 2024.
 
-Preprint: (coming soon)
+[Paper](https://arxiv.org/abs/2406.05646){:target="_blank" rel="noopener noreferrer"} \|
+[Code](https://github.com/icu-sepsis/icu-sepsis){:target="_blank" rel="noopener noreferrer"}
 
-Code: [GitHub](https://github.com/icu-sepsis/icu-sepsis)
 
 Cite as:
 
 {% raw %}
-```
+```bibtex
 @inproceedings{
-choudhary2024icusepsis,
-title={{ICU}-Sepsis: A Benchmark {MDP} Built from Real Medical Data},
-author={Kartik Choudhary and Dhawal Gupta and Philip S. Thomas},
-booktitle={Reinforcement Learning Conference},
-year={2024},
+  choudhary2024icusepsis,
+  title={{ICU-Sepsis}: A Benchmark {MDP} Built from Real Medical Data},
+  author={Kartik Choudhary and Dhawal Gupta and Philip S. Thomas},
+  booktitle={Reinforcement Learning Conference},
+  year={2024},
+  url={https://arxiv.org/abs/2406.05646}
 }
 ```
 {% endraw %}
