@@ -5,8 +5,6 @@ permalink: /publication/2024-05-20-judging-judges
 excerpt: 'A comprehensive study of the LLM-as-a-judge paradigm in a controlled setup that reveals new results about its strengths and weaknesses.'
 date: 2024-05-20
 venue: 'Under Review, NeurIPS'
-# paperurl: ''
-# citation: ''
 ---
 
 {% include figure image_path="images/assets/publications/judging-judges/judge-score-alignment.png"
@@ -30,6 +28,5 @@ the future.
 
 Under Review at [NeurIPS](https://neurips.cc/), 2024.
 
-Preprint: (coming soon)
-
-Code: [GitHub](https://github.com/judging-judges/judging-judges)
+[Paper](https://arxiv.org/abs/2406.12624){:target="_blank" rel="noopener noreferrer"} \|
+[Code](https://github.com/judging-judges/judging-judges){:target="_blank" rel="noopener noreferrer"}
