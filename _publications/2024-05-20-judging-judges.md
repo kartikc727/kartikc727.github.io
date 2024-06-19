@@ -30,3 +30,18 @@ Under Review at [NeurIPS](https://neurips.cc/), 2024.
 
 [Paper](https://arxiv.org/abs/2406.12624){:target="_blank" rel="noopener noreferrer"} \|
 [Code](https://github.com/judging-judges/judging-judges){:target="_blank" rel="noopener noreferrer"}
+
+Cite as:
+
+{% raw %}
+```bibtex
+@misc{thakur2024judging,
+  title={Judging the Judges: Evaluating Alignment and Vulnerabilities in LLMs-as-Judges}, 
+  author={Aman Singh Thakur and Kartik Choudhary and Venkat Srinik Ramayapally and Sankaran Vaidyanathan and Dieuwke Hupkes},
+  year={2024},
+  eprint={2406.12624},  
+  archivePrefix={arXiv},
+  url={https://arxiv.org/abs/2406.12624}
+}
+```
+{% endraw %}
