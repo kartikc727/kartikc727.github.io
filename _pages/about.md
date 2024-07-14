@@ -7,17 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am Kartik Choudhary -- graduate student in the [College of Information and Computer Science](https://www.cics.umass.edu/)
-at the [University of Massachusetts Amherst](https://www.umass.edu/). My interests include natural language processing
-and reinforcement learning. Specifically, my research is aimed at elevating the capabilities and reliability of
-generative AI models. 
+I am Kartik Choudhary - machine learning engineer at TikTok USDS, where I develop and optimize the search and
+recommendation engine for TikTok’s e-commerce platform. Previously, I worked as a data scientist at Reliance Jio.
+I have also completed internships and research projects at Microsoft and Meta.
 {: .text-justify}
 
-As a data scientist and ML engineer, I have over three years of experience leveraging massive amounts of data to drive
-growth and enhance user experiences in the domains of telecom, advertising, and customer service. I bring experience
-in building scalable ML solutions, serving hundreds of millions of customers, by utilizing tools such as PyTorch,
-Spark, SQL, and Tableau. I have a proven track record of leveraging machine learning, data analytics, and visualization
-to improve customer experience while reducing operating costs.
+I completed my M.S. in Computer Science from the [University of Massachusetts Amherst](https://www.cics.umass.edu/) in
+2024, where my research included off-policy reinforcement learning and evaluation algorithms, as well as safety and
+interpretability of language models and other transformer-based systems. I completed my B.Tech. in Electrical
+Engineering from the [Indian Institute of Technology Delhi](https://ee.iitd.ac.in/) in 2019.
 {: .text-justify}
 
 I love playing basketball, reading fantasy novels, cooking, and casual astrophysics. Check out my portfolio to take a
