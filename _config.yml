@@ -57,11 +57,9 @@ author:
   name             : "Kartik Choudhary"
   pronouns         : "He/Him"
   bio              : > # MD allowed
-    CS Grad Student at UMass Amherst 
-    |
-    Data Scientist, ML Engineer
-  location         : "Amherst, MA"
-  employer         : "UMass Amherst"
+    ML Engineer, Data Scientist
+  location         : "San Francisco Bay Area"
+  employer         : "TikTok"
   uri              : # URL
   email            : "kartikchoudh [at] cs [dot] umass [dot] edu"
 
