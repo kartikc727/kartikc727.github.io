@@ -101,9 +101,9 @@ will use them and pay attention to them.
 
 <!-- Links -->
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
-[colab-notebook]: <https://colab.research.google.com/github/kartik727/ml-projects/blob/master/adversarial-examples/Adversarial_examples.ipynb> "Colab notebook"
-[gh-fork-shield]: <https://img.shields.io/github/forks/kartik727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
-[github-repo]: <https://github.com/kartik727/ml-projects/tree/master/adversarial-examples> "Github repository"
+[colab-notebook]: <https://colab.research.google.com/github/kartikc727/ml-projects/blob/master/adversarial-examples/Adversarial_examples.ipynb> "Colab notebook"
+[gh-fork-shield]: <https://img.shields.io/github/forks/kartikc727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
+[github-repo]: <https://github.com/kartikc727/ml-projects/tree/master/adversarial-examples> "Github repository"
 [1]: <https://www.tensorflow.org/tutorials/generative/adversarial_fgsm> "Adversarial example using FGSM - TensorFlow Core"
 [2]: <https://christophm.github.io/interpretable-ml-book/adversarial.html> "Adversarial Examples - Interpretable Machine Learning (christophm.github.io)"
 [3]: <https://bair.berkeley.edu/blog/2017/12/30/yolo-attack/> "Physical Adversarial Examples Against Deep Neural Networks – The Berkeley Artificial Intelligence Research Blog"

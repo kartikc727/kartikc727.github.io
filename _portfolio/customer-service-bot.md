@@ -425,9 +425,9 @@ depends heavily on the system prompt, which requires a lot of experimentation to
 
 <!-- Links -->
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
-[colab-notebook]: <https://colab.research.google.com/github/kartik727/ml-projects/blob/master/customer-service-chatbot/Customer_Service_Chat_Bot.ipynb> "Colab notebook"
-[gh-fork-shield]: <https://img.shields.io/github/forks/kartik727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
-[github-repo]: <https://github.com/kartik727/ml-projects/tree/f819bed0c7a24510beaa714b201fbac0e9532de7/customer-service-chatbot> "Github repository"
+[colab-notebook]: <https://colab.research.google.com/github/kartikc727/ml-projects/blob/master/customer-service-chatbot/Customer_Service_Chat_Bot.ipynb> "Colab notebook"
+[gh-fork-shield]: <https://img.shields.io/github/forks/kartikc727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
+[github-repo]: <https://github.com/kartikc727/ml-projects/tree/f819bed0c7a24510beaa714b201fbac0e9532de7/customer-service-chatbot> "Github repository"
 
 [1]: <https://platform.openai.com/docs/guides/gpt> "GPT - OpenAI API"
 [2]: <https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/> "ChatGPT Prompt Engineering for Developers - DeepLearning.AI"

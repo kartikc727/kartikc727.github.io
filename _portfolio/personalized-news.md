@@ -184,8 +184,8 @@ If the user wants to read the full article, they can click on the article title,
 which will redirect them to the original article on the news website. 
 
 <!-- Links -->
-[gh-fork-shield]: <https://img.shields.io/github/forks/kartik727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
-[github-repo]: <https://github.com/kartik727/ml-projects/tree/master/personalized-news-summarizer> "Github repository"
+[gh-fork-shield]: <https://img.shields.io/github/forks/kartikc727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
+[github-repo]: <https://github.com/kartikc727/ml-projects/tree/master/personalized-news-summarizer> "Github repository"
 [1]: <https://storage.googleapis.com/news-site-holder-bucket/build/index.html> "Personalized News Summarizer"
 [2]: <https://www.microsoft.com/en-us/bing/apis/bing-news-search-api> "Bing News API"
 [3]: <https://newsapi.org/> "News Org API"

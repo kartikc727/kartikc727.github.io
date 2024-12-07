@@ -182,9 +182,9 @@ Many techniques can be applied to improve the model performance like:
 
 <!-- Links -->
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
-[colab-notebook]: <https://colab.research.google.com/github/kartik727/ml-projects/blob/master/basic-gan/GAN.ipynb> "Colab notebook"
-[gh-fork-shield]: <https://img.shields.io/github/forks/kartik727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
-[github-repo]: <https://github.com/kartik727/ml-projects/blob/master/basic-gan> "Github repository"
+[colab-notebook]: <https://colab.research.google.com/github/kartikc727/ml-projects/blob/master/basic-gan/GAN.ipynb> "Colab notebook"
+[gh-fork-shield]: <https://img.shields.io/github/forks/kartikc727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
+[github-repo]: <https://github.com/kartikc727/ml-projects/blob/master/basic-gan> "Github repository"
 [GAN-post]: </ml/gan/2021/06/01/gans.html> "Generative Adversarial Networks"
 [1]: <https://laurencemoroney.com/datasets.html#rock-paper-scissors-dataset> "Rock Paper Scissors Dataset - laurencemoroney.com"
 [2]: <https://www.tensorflow.org/tutorials/generative/dcgan> "Deep Convolutional Generative Adversarial Network - Tensorflow"

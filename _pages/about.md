@@ -26,5 +26,5 @@ look at some of my personal projects.
 
 <div style="display: flex; gap: 20px;">
     <a href="{{ site.resume_pdf }}">View Resume</a>
-    <a class="libutton" href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=kartik727" target="_black">Follow on LinkedIn</a>
+    <a class="libutton" href="http://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=kartikc727" target="_black">Follow on LinkedIn</a>
 </div>

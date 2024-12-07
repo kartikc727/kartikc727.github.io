@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ML by Kartik"
+title                    : "Kartik Choudhary"
 title_separator          : "-"
 name                     : "Kartik Choudhary"
-description              : "Yet another machine learning blog"
-repository               : "kartik727/kartik727.github.io"
+description              :
+repository               : "kartikc727/kartikc727.github.io"
 teaser                   :                                              # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false                                        # true, false (default)
 words_per_minute         : 160
@@ -38,8 +38,8 @@ social:
   type                   : Person                                       # Person or Organization (defaults to Person)
   name                   :                                              # If the user or organization name differs from the site's name
   links                  :                                              # An array of links to social media profiles
-    - "https://www.linkedin.com/in/kartik727/"
-    - "https://github.com/kartik727"
+    - "https://www.linkedin.com/in/kartikc727/"
+    - "https://github.com/kartikc727"
     - "https://twitter.com/kartik_727"
 
 
@@ -61,7 +61,7 @@ author:
   location         : "San Francisco Bay Area"
   employer         : "TikTok"
   uri              : # URL
-  email            : "kartikchoudh [at] cs [dot] umass [dot] edu"
+  email            : "contact [at] kartikc [dot] com"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -75,12 +75,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "kartik727"
+  github           : "kartikc727"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : # Replace this with you Bluesky username
+  bluesky          : "@kartikc.com"
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -89,7 +89,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "kartik727"
+  linkedin         : "kartikc727"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

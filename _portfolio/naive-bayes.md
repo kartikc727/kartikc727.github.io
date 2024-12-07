@@ -263,9 +263,9 @@ classification models.
 
 <!-- Links -->
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
-[colab-notebook]: <https://colab.research.google.com/github/kartik727/ml-projects/blob/master/naive-bayes/Naive_Bayes.ipynb> "Colab notebook"
-[gh-fork-shield]: <https://img.shields.io/github/forks/kartik727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
-[github-repo]: <https://github.com/kartik727/ml-projects/tree/master/naive-bayes> "Github repository"
+[colab-notebook]: <https://colab.research.google.com/github/kartikc727/ml-projects/blob/master/naive-bayes/Naive_Bayes.ipynb> "Colab notebook"
+[gh-fork-shield]: <https://img.shields.io/github/forks/kartikc727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
+[github-repo]: <https://github.com/kartikc727/ml-projects/tree/master/naive-bayes> "Github repository"
 
 [1]: <https://www.youtube.com/playlist?list=PLaZQkZp6WhWxU3kA6wV0nb5dY1SXDEKWH> "Playlist - Week 2: Naive Bayes, Text Classification, and Sentiment | From Languages to Information | YouTube"
 [2]: <https://en.wikipedia.org/wiki/Bag-of-words_model> "Bag-of-words model - Wikipedia"

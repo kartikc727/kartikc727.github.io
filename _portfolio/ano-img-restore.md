@@ -7,5 +7,5 @@ date: 2022-12-18 20:30:00 -0500
 last_modified_at: 2022-12-25 08:30:00 -0500
 permalink: /portfolio/ano-img-restore
 redirect_to:
-    - https://github.com/kartik727/ml-projects/blob/master/comparison-image-recovery/report.pdf
+    - https://github.com/kartikc727/ml-projects/blob/master/comparison-image-recovery/report.pdf
 ---

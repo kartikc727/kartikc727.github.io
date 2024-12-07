@@ -231,9 +231,9 @@ more cats. Map data: OpenStreetMap"
 
 <!-- Links -->
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
-[colab-notebook]: <https://colab.research.google.com/github/kartik727/ml-projects/blob/master/pet_detector/Pet_Detector.ipynb> "Colab notebook"
-[gh-fork-shield]: <https://img.shields.io/github/forks/kartik727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
-[github-repo]: <https://github.com/kartik727/ml-projects/blob/f819bed0c7a24510beaa714b201fbac0e9532de7/pet_detector/Pet_Detector.ipynb> "Github repository"
+[colab-notebook]: <https://colab.research.google.com/github/kartikc727/ml-projects/blob/master/pet_detector/Pet_Detector.ipynb> "Colab notebook"
+[gh-fork-shield]: <https://img.shields.io/github/forks/kartikc727/ml-projects.svg?style=social&label=Fork&maxAge=2592000>
+[github-repo]: <https://github.com/kartikc727/ml-projects/blob/f819bed0c7a24510beaa714b201fbac0e9532de7/pet_detector/Pet_Detector.ipynb> "Github repository"
 
 [1]: <https://huggingface.co/> "HuggingFace"
 [2]: <https://developers.google.com/maps/documentation/streetview/overview> "Google Street View API"
