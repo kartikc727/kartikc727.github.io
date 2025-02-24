@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -19,6 +19,18 @@ redirect_from:
 ---
 
 ## Professional experience
+
+**Machine Learning Engineer II, Nextdoor**&nbsp;&nbsp;&nbsp;*Feb 2025 - Present*
+
+Working on the Feed team for the Nextdoor app.
+
+**Machine Learning Engineer II, TikTok USDS**&nbsp;&nbsp;&nbsp;*Jul 2024 - Feb 2025*
+
+Worked on designing and optimizing the TikTok app search suggestions feature, and served as its primary point of contact.
+
+* Implemented a search candidate raking method using a BCE+LTR hybrid loss function to improve search relevance and reduce latency for the US and EU markets.
+* Implemented a search query scattering strategy to increase diversity in search results for queries with unclear search intent.
+* Collaborated with the architecture team to increase the number of query candidates by 8x with minimal latency impact, improving search coverage and increasing suggestions click-through rate.
 
 **Machine Learning Engineer, Reliance Jio Infocomm Ltd.**&nbsp;&nbsp;&nbsp;*Jul 2021 - Jul 2022*
 

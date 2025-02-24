@@ -59,7 +59,7 @@ author:
   bio              : > # MD allowed
     ML Engineer, Data Scientist
   location         : "San Francisco Bay Area"
-  employer         : "TikTok"
+  employer         : "Nextdoor"
   uri              : # URL
   email            : "contact [at] kartikc [dot] com"
 
@@ -170,12 +170,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
   about-me:
     output: true
     permalink: /:collection/:path/
@@ -276,7 +270,7 @@ whitelist:
   - jemoji
 
 # Custom variables
-resume_pdf: "/files/resume/resume_20240525.pdf"
+resume_pdf: "/files/resume/resume_20241215.pdf"
 
 # Archives
 #  Type

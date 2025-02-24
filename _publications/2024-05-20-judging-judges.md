@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2024-05-20-judging-judges
 excerpt: 'A comprehensive study of the LLM-as-a-judge paradigm in a controlled setup that reveals new results about its strengths and weaknesses.'
 date: 2024-05-20
-venue: 'Under Review, NeurIPS'
+venue: 'arXiv'
 ---
 
 {% include figure image_path="images/assets/publications/judging-judges/judge-score-alignment.png"
@@ -25,8 +25,6 @@ but in terms of ranking exam taker models, they are outperformed by both JudgeLM
 which have up to 34 points lower human alignment. Through error analysis and various other studies, including the
 effects of instruction length and leniency bias, we hope to provide valuable lessons for using LLMs as judges in
 the future.
-
-Under Review at [NeurIPS](https://neurips.cc/), 2024.
 
 [Paper](https://arxiv.org/abs/2406.12624){:target="_blank" rel="noopener noreferrer"} \|
 [Code](https://github.com/judging-judges/judging-judges){:target="_blank" rel="noopener noreferrer"}
